@@ -3,6 +3,11 @@
 html, body {
     background-color: #4b4b4b;
     font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background: url(../images/sl_bg.png) no-repeat center center fixed;
 }
 
 .grid-container {
@@ -15,36 +20,45 @@ html, body {
         "navbar navbar navbar navbar navbar"
         "sidebar content content content content"
         "sidebar footer footer footer footer";
-    
+    -webkit-box-shadow: 0px 0px 43px 19px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 0px 43px 19px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 43px 19px rgba(0,0,0,0.51);
+    background: rgba(0,0,0,0.8);
+    min-height: 100vh;
 }
   
 .bigTop { 
     grid-area: bigTop; 
-    background-color: red;
+    //background-color: red;
 }
   
 .navbar {
     grid-area: navbar;    
-    background-color: salmon;
+    //background-color: salmon;
   }
   
 .sidebar { 
     grid-area: sidebar; 
-    background-color: blue;
+    //background-color: blue;
 }
   
 .content { 
     grid-area: content; 
-    background-color: yellow;
+    //background-color: yellow;
     padding: 0 1rem;
 }
 
 .footer { 
     grid-area: footer;
-    background-color: purple;
+    //background-color: purple;
  }
 
  @media only screen and (max-width: 768px){
+    body, html {
+        margin-left: 0;
+    margin-right: 0;
+    }
+    
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1.1fr 0.2fr 2.2fr 0.5fr;
