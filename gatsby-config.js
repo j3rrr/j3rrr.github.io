@@ -6,11 +6,12 @@
 
 module.exports = {
 	siteMetadata: {
-		title: 'From Zero to Hero',
+		title: 'From Hero to Zero',
 		guild: 'Zero',
 		realm: 'Aegwynn EU'
 	},
 	plugins: [
+		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
 		{
 			resolve: 'gatsby-source-filesystem',
