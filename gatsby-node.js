@@ -5,6 +5,10 @@ const { paginate } = require("gatsby-awesome-pagination")
 
 const path = require('path')
 
+const { createFilePath } = require("gatsby-source-filesystem")
+
+const path = require('path')
+
 module.exports.onCreateNode = ({node, actions}) => {
     const {createNodeField} = actions
 
