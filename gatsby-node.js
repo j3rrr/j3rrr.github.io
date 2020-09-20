@@ -1,5 +1,8 @@
 const { create } = require("domain")
 const { Link } = require("gatsby")
+const { paginate } = require("gatsby-awesome-pagination")
+
+
 
 const path = require('path')
 
@@ -26,7 +29,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
     const blogTemplate = path.resolve('./src/templates/blog.js')
     //Get Markdown Data
     const res = await graphql(`
-    query {
+        query {
             allMarkdownRemark {
                 edges {
                     node {
@@ -38,6 +41,15 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         }
     `)
+        
+    paginate({
+        createPage,
+        items: res.data.allMarkdownRemark.edges.node,
+        itemsPerPage: 2,
+        pathPrefix: './pages',
+        component: path.resolve(`.src/pages/index.js`),
+
+    });
     //Create New Pages
     
     res.data.allMarkdownRemark.edges.forEach((edge) => {
@@ -49,6 +61,8 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
+
+
 
 }
 

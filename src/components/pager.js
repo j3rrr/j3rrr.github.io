@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import PropTypes from 'prop-types'
 
 const Pager = ({ pageContext }) => {
-  console.log(pageContext);
+  // console.log(pageContext);
   const { previousPagePath, nextPagePath } = pageContext;
   return (
     <nav style={{ display: 'flex', justifyContent: 'space-between' }}>

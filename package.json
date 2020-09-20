@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "gatsby": "^2.24.61",
-    "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-sass": "^2.3.13",
     "gatsby-plugin-sharp": "^2.6.36",
