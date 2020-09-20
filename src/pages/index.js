@@ -1,4 +1,5 @@
 import React from "react"
+<<<<<<< HEAD
 import {Link, graphql, useStaticQuery} from 'gatsby'
 import PropTypes from 'prop-types'
 
