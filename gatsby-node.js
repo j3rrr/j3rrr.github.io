@@ -3,11 +3,7 @@ const { Link } = require("gatsby")
 const { paginate } = require("gatsby-awesome-pagination")
 
 
-
 const path = require('path')
-
-const { createFilePath } = require("gatsby-source-filesystem")
-
 
 module.exports.onCreateNode = ({node, actions}) => {
     const {createNodeField} = actions
@@ -51,7 +47,6 @@ module.exports.createPages = async ({ graphql, actions }) => {
 
     });
     //Create New Pages
-    
     res.data.allMarkdownRemark.edges.forEach((edge) => {
         createPage({
             component: blogTemplate,

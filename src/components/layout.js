@@ -12,8 +12,7 @@ import Sidebar from '../components/sidebar'
 const Layout = (props) => {
     return (
         
-        // 
-        <div class="grid-wrapper">
+        <div class="grid-container">
             <BigTop />
             <Navbar />
             <Sidebar />
