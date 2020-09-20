@@ -2,6 +2,7 @@ const { create } = require("domain")
 const { Link } = require("gatsby")
 const { paginate } = require("gatsby-awesome-pagination")
 
+
 const path = require('path')
 
 const { createFilePath } = require("gatsby-source-filesystem")
@@ -27,7 +28,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
     const blogTemplate = path.resolve('./src/templates/blog.js')
     //Get Markdown Data
     const res = await graphql(`
-    query {
+        query {
             allMarkdownRemark {
                 edges {
                     node {
