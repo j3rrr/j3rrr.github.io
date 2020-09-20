@@ -5,7 +5,9 @@ import React from 'react'
 
 const BigTop = () => {
     return (
-        <div class="bigTop">Big Top</div>
+        <div class="bigTop">
+            <div class="headerLogo"></div>
+        </div>
     )
 }
 

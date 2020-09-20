@@ -21,10 +21,7 @@ export const query = graphql`
     }
     html
   }
-}
-
-
-`
+}`
 
 const Blog = (props) => {
     return (
