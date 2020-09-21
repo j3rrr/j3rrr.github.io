@@ -28,24 +28,27 @@ export default class BlogList extends React.Component {
                             <div className={blogListStyles.cards}>
                                 <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />
                                 <Link to={`/blog/${node.fields.slug}`}>
-                                <h3>{node.frontmatter.title}</h3>
-                                {/* <p>{node.frontmatter.date}</p> */}
+                                <div className={blogListStyles.title}>{node.frontmatter.title}</div> 
+                                <div className={blogListStyles.subtitle} dangerouslySetInnerHTML={{__html: node.excerpt}}></div>                               
                                 </Link>
                             </div>
                         )
                     })}
                     
                 </div>
+                <div className={blogListStyles.pagination}>
+                
                     {!isFirst && (
-                        <Link to={prevPage} rel="prev">
-                            ← Previous Page
+                        <Link className={`${blogListStyles.btn} ${blogListStyles.btnMove} ${blogListStyles.btnMove2}`} to={prevPage} rel="prev">
+                            <span>Älter</span><span>←</span>
                         </Link>
                     )}
                     {!isLast && (
-                        <Link to={nextPage} rel="next">
-                            Next Page →
+                        <Link className={`${blogListStyles.btn} ${blogListStyles.btnMove} ${blogListStyles.btnMove2}`} to={nextPage} rel="next">
+                            <span>Neuer</span><span>→</span>
                         </Link>
                     )}
+                </div>
             </Layout>
         )
     }
@@ -63,7 +66,7 @@ export const blogListQuery = graphql`
                     fields {
                         slug
                     }
-                        frontmatter {
+                    frontmatter {
                         title
                         date(formatString: "DD.MM.YYYY")
                         screenshot {
@@ -72,8 +75,9 @@ export const blogListQuery = graphql`
                                 ...GatsbyImageSharpSizes
                                 }
                             }
-                        }
+                        }                        
                     }
+                    excerpt(format:PLAIN)
                 }
             }
         }

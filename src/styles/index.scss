@@ -1,12 +1,25 @@
 @import "variables";
 
-$mainContentBackground: url(../posts/raid1/killshot2.png);
+$mainContentBackground: url(../posts/nyalotha/carapace/clean.png);
 
 html, body {
     margin:0;
     padding: 0;
     height: 100%;
     color: $offwhite;
+}
+
+.itemEpic {
+    color: $itemSuperior;
+    &:hover {
+        color: $itemSuperior;
+    }
+}
+.itemLegendary {
+    color: $itemLegendary;
+    &:hover {
+        color: $itemLegendary;
+    }
 }
 
 .mainWrapper {
@@ -17,6 +30,7 @@ html, body {
     display: grid;
     align-content: end;
     z-index: 0;
+    
 }
 
 // .grid-wrapper {

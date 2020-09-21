@@ -1,17 +1,22 @@
 @import "../styles/variables";
 
+$ease_snap: cubic-bezier(0,.56,.76,1.3);
+$ease_out: cubic-bezier(0.23, 1, 0.32, 1);  
+
 .cardContainer {
     display: grid;
     /* There will be 3 columns, each 200px wide */
     grid-template-columns: repeat(3, .3fr);
     /* There will be 2 rows, each 250px high */
-    grid-template-rows: min-content;
+    grid-template-rows: auto;
     justify-content: center;
     align-content: center;
     grid-gap: 2em;
     height: 800px;
     padding: 1em;
 }
+
+
 
 .cards {
     background: $bg-dark;
@@ -36,17 +41,21 @@
     border-bottom: 1px solid $gold;    
 }
 
-
-.cards h3 {
+.cards .subtitle {
+    padding-top: 10px;
+    font-size: .8rem;
     text-align: center;
-    padding: 10px 0px 0px 10px;
+}
+
+
+.cards .title {
+    font-weight: 600;
+    text-align: center;
+    padding:20px 0px 0px 0px;
     /* Shorthand padding: top right bottom left */
 }
 
-.cards p {
-    padding-left: 10px;
-    font-size: 14px;
-}
+
 
 @media only screen and (max-width: 600px){
     .cardContainer {
@@ -55,4 +64,78 @@
         /* There will be 2 rows, each 250px high */
         grid-template-rows: auto;
     }
+}
+
+
+.pagination {
+    
+    // display: inline-block;
+    text-align: center;
+
+    .btn {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 16px;
+        padding: 14px 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: .8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        outline: none;
+        overflow: hidden;
+        border: none;
+        background: none;
+    }
+    .btnMove {
+        position: relative;
+        border-radius: 0;
+        border:1px solid $gold;
+        transition: border .2s linear;
+        padding: 0;
+        color: $offwhite;
+        span {
+          transition: transform .6s $ease_out, opacity .1s linear;
+          display: block;
+        }
+        span:first-child {
+          padding: 14px 18px;
+        }
+        span:last-child {
+            padding: 14px 0;
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            top: 0;
+            right: 0;
+            opacity: 0;
+            color: #000;
+            background: $gold;
+        }
+    }
+    .btnMove2 {
+        span:last-child {
+            transform: translate(-15%,0);
+            font-size: 24px;
+            line-height: 42px;
+            padding:0;
+        }
+        &:hover {
+            border-color: $gold;
+            span:first-child {
+                transform: translate(15%,0);
+                opacity: 0;
+            }
+            span:last-child {
+                transform:translate(0,0);
+                opacity: 1;
+            }
+        }
+    }
+
 }

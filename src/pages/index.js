@@ -23,6 +23,7 @@ const Home = () => {
 							slug
 						}
 						html
+						excerpt(format:HTML)
 					}
 				}
 			}
@@ -43,7 +44,7 @@ const Home = () => {
 									<Link to={`/blog/${edge.node.fields.slug}`}>
 										{edge.node.frontmatter.title}
 									</Link><br></br>
-									<div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
+									<div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.excerpt}}></div>
 								</button>
 									
 								

@@ -18,7 +18,7 @@ const SidebarNav = () => {
                         <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
                     </li>
                     <li>
-                        <Link activeClassName={sidebarNavStyles.active} to="/about">WoW Progress</Link>
+                        <a href="https://www.wowprogress.com/guild/eu/aegwynn/Zero" target="_blank" rel="noreferrer">WoW Progress</a>
                     </li>
                     <li>
                         <a href="https://worldofwarcraft.com/de-de/guild/eu/aegwynn/zero" target="_blank" rel="noreferrer">Arsenal</a>

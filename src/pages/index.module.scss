@@ -43,8 +43,15 @@
         -moz-transition:  all 0.3s;
         transition:  all 0.3s;
 
+        p {
+            margin:0;
+            padding: 0;
+            padding-top:.8rem;
+        }
+
         a{
             color: $offwhite;
+            
         }
     }
 

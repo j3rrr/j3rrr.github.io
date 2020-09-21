@@ -23,15 +23,15 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: 'img',
-				path: `${__dirname}/src/posts/img`
+				name: 'images',
+				path: `${__dirname}/src/images`
 			}
 		},
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: 'images',
-				path: `${__dirname}/src/images`
+				name: 'postimages',
+				path: `${__dirname}/src/posts/`
 			}
 		},
 		'gatsby-plugin-sharp',
@@ -40,7 +40,9 @@ module.exports = {
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
+				excerpt_separator: `<!-- end -->`,
 				plugins: [
+					'gatsby-remark-attr',
 					'gatsby-remark-relative-images',
 					{
 						resolve: 'gatsby-remark-images',
@@ -48,6 +50,12 @@ module.exports = {
 							quality: 100,
 							linkImagesToOriginal: true
 						}
+					},					
+					{
+						resolve: "gatsby-remark-attr",
+						options: {
+						  allowDangerousDOMEventHandlers: true
+						},
 					}
 				]
 			}
@@ -59,6 +67,35 @@ module.exports = {
 				name: `data`,
 				path: `${__dirname}/src/data`
 			}
-		}
+		},
 	],
 }
+		// {
+		// 	resolve: 'gatsby-transformer-remark',
+		// 	options: {
+		// 		excerpt_separator: `<!-- end -->`
+		// 	}
+		// },		
+		
+		// {
+		// 	resolve: 'gatsby-transformer-remark',
+		// 	options: {
+		// 	  plugins: [
+		// 		'gatsby-remark-attr'
+		// 	  ],
+		// 	},
+		//   },
+		//   {
+		// 	resolve: 'gatsby-transformer-remark',
+		// 	options: {
+		// 	  plugins: [
+		// 		{
+		// 		  resolve: "gatsby-remark-attr",
+		// 		  options: {
+		// 			allowDangerousDOMEventHandlers: true
+		// 		  },
+		// 		},
+		// 	  ],
+		// 	},
+		//   }
+	
