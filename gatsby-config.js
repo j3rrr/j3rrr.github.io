@@ -31,7 +31,7 @@ module.exports = {
 			resolve: 'gatsby-source-filesystem',
 			options: {
 				name: 'postimages',
-				path: `${__dirname}/src/posts/`
+				path: `${__dirname}/src/posts/images`
 			}
 		},
 		'gatsby-plugin-sharp',
