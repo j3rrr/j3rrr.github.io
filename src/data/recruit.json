@@ -2,167 +2,167 @@
     "dh": {
         "havoc": {
             "active": true,
-             "icon": "./spec/demonhunter/havoc.png"
+             "icon": "../spec/demonhunter/havoc.png"
         },
         "vengeance": {
             "active": false,
-             "icon": "./spec/demonhunter/vengeance.png"
+             "icon": "../spec/demonhunter/vengeance.png"
         }
     },
     "druid": {
         "guardian": {
             "active": false,
-             "icon": "./spec/druid/guardian.png"
+             "icon": "../spec/druid/guardian.png"
         },
         "feral": {
             "active": true,
-             "icon": "./spec/druid/feral.png"
+             "icon": "../spec/druid/feral.png"
         },
         "balance": {
             "active": true,
-             "icon": "./spec/druid/balance.png"
+             "icon": "../spec/druid/balance.png"
         },
         "resto": {
             "active": false,
-             "icon": "./spec/druid/restoration.png"
+             "icon": "../spec/druid/restoration.png"
         }
     },
     "warlock": {
         "affli": {
             "active": true,
-             "icon": "./spec/warlock/affliction.png"
+             "icon": "../spec/warlock/affliction.png"
         },
         "destro": {
             "active": true,
-             "icon": "./spec/warlock/destruction.png"
+             "icon": "../spec/warlock/destruction.png"
         },
         "demo": {
             "active": true,
-             "icon": "./spec/warlock/demonology.png"
+             "icon": "../spec/warlock/demonology.png"
         }
     },"hunter": {
         "bm": {
             "active": true,
-             "icon": "./spec/hunter/beastmastery.png"
+             "icon": "../spec/hunter/beastmastery.png"
         },
         "mm": {
             "active": true,
-             "icon": "./spec/hunter/marksman.png"
+             "icon": "../spec/hunter/marksman.png"
         },
         "surv": {
             "active": false,
-             "icon": "./spec/hunter/survival.png"
+             "icon": "../spec/hunter/survival.png"
         }
     },"warrior": {
         "prot": {
             "active": false,
-             "icon": "./spec/warrior/protection.png"
+             "icon": "../spec/warrior/protection.png"
         },
         "fury": {
             "active": true,
-             "icon": "./spec/warrior/fury.png"
+             "icon": "../spec/warrior/fury.png"
         },
         "arms": {
             "active": true,
-             "icon": "./spec/warrior/arms.png"
+             "icon": "../spec/warrior/arms.png"
         }
     },
     "mage": {
         "frost": {
             "active": true,
-             "icon": "./spec/mage/frost.png"
+             "icon": "../spec/mage/frost.png"
         },
         "fire": {
             "active": true,
-             "icon": "./spec/mage/fire.png"
+             "icon": "../spec/mage/fire.png"
         },
         "arcane": {
             "active": true,
-             "icon": "./spec/mage/arcane.png"
+             "icon": "../spec/mage/arcane.png"
         }
     },
     "monk": {
         "bm": {
             "active": false,
-             "icon": "./spec/monk/brewmaster.png"
+             "icon": "../spec/monk/brewmaster.png"
         },
         "ww": {
             "active": true,
-             "icon": "./spec/monk/windwalker.png"
+             "icon": "../spec/monk/windwalker.png"
         },
         "mw": {
             "active": true,
-             "icon": "./spec/monk/mistweaver.png"
+             "icon": "../spec/monk/mistweaver.png"
         }
     },
     "paladin": {
         "prot": {
             "active": false,
-             "icon": "./spec/paladin/protection.png"
+             "icon": "../spec/paladin/protection.png"
         },
         "ret": {
             "active": true,
-             "icon": "./spec/paladin/retribution.png"
+             "icon": "../spec/paladin/retribution.png"
         },
         "holy": {
             "active": false,
-             "icon": "./spec/paladin/holy.png"
+             "icon": "../spec/paladin/holy.png"
         }
     },
     "priest": {
         "holy": {
             "active": false,
-             "icon": "./spec/priest/holy.png"
+             "icon": "../spec/priest/holy.png"
         },
         "disc": {
             "active": false,
-             "icon": "./spec/priest/discipline.png"
+             "icon": "../spec/priest/discipline.png"
         },
         "shadow": {
             "active": true,
-             "icon": "./spec/priest/shadow.png"
+             "icon": "../spec/priest/shadow.png"
         }
     },
     "shaman": {
         "ele": {
             "active": true,
-             "icon": "./spec/shaman/elemental.png"
+             "icon": "../spec/shaman/elemental.png"
         },
         "enh": {
             "active": true,
-             "icon": "./spec/shaman/enhancement.png"
+             "icon": "../spec/shaman/enhancement.png"
         },
         "resto": {
             "active": false,
-             "icon": "./spec/shaman/restoration.png"
+             "icon": "../spec/shaman/restoration.png"
         }
     },
     "rogue": {
         "outlaw": {
             "active": true,
-             "icon": "./spec/rogue/combat.png"
+             "icon": "../spec/rogue/combat.png"
         },
         "assa": {
             "active": true,
-             "icon": "./spec/rogue/assassination.png"
+             "icon": "../spec/rogue/assassination.png"
         },
         "sub": {
             "active": true,
-             "icon": "./spec/rogue/subtlety.png"
+             "icon": "../spec/rogue/subtlety.png"
         }
     },
     "dk": {
         "blood": {
             "active": false,
-             "icon": "./spec/deathknight/blood.png"
+             "icon": "../spec/deathknight/blood.png"
         },
         "frost": {
             "active": true,
-             "icon": "./spec/deathknight/frost.png"
+             "icon": "../spec/deathknight/frost.png"
         },
         "unholy": {
             "active": true,
-             "icon": "./spec/deathknight/unholy.png"
+             "icon": "../spec/deathknight/unholy.png"
         }
     }
 }

@@ -8,12 +8,15 @@ import indexStyles from './index.module.scss'
 const Home = () => {
 	const data = useStaticQuery(graphql`
         query {
-			allMarkdownRemark {
+			allMarkdownRemark(
+                sort: {fields: [frontmatter___date], order: DESC}
+                limit: 1
+            ) {
 				edges {
 					node {
 						frontmatter {
 							title
-							date
+							date(formatString: "DD.MM.YYYY")
 						}
 						fields {
 							slug

@@ -3,6 +3,7 @@ import React from 'react'
 
 import Recruit from '../components/recruit'
 import SidebarNav from '../components/sidebar-nav'
+import SidebarProgress from '../components/sidebar-progress'
 import sidebarStyles from './sidebar.module.scss'
 import logo from "../images/logo_header.png"
 
@@ -13,7 +14,9 @@ const Sidebar = () => {
                 <img src={logo} alt="dh vengeance"  className={sidebarStyles.logo}></img>
             </div>
             <SidebarNav />
+            <SidebarProgress />
             <Recruit />
+            
         </div> 
     )
 }
