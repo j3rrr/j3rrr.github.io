@@ -66,11 +66,11 @@
   }
   
   .timeline li {
-    padding: 0 0;
+    padding: 1em 0;
   }
 
   .timeline li:first-child {
-      padding-top: 2em
+      padding-top: 7em
   }
   .timeline li:last-child {
     padding-bottom: 2em
@@ -176,10 +176,16 @@
     background: $gold;
     display: inline-block;
     padding: 8px;
+    color: $bg-dark;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
   }
   
   .desc {
     position: relative;
+    width: 50%;
     margin: 1em 0 0 0;
     padding: 1em;
     background:$bg-light;

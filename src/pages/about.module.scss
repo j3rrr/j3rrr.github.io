@@ -1,0 +1,35 @@
+@import "../styles/variables";
+
+
+
+.aboutWrapper {
+    display: grid;
+    /* There will be 3 columns, each 200px wide */
+    grid-template-columns: .65fr;
+    /* There will be 2 rows, each 250px high */
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+    
+    height: 100%;
+    padding: 0;
+}
+
+.aboutContent {   
+    h2 { 
+        padding-top: 4rem;
+        color: $gold;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+        font-weight: 300;
+    }
+}
+
+
+
+
+
+
