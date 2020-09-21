@@ -34,6 +34,13 @@ module.exports = {
 				path: `${__dirname}/src/images`
 			}
 		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+			  name: `recruit`,
+			  path: `${__dirname}/src/data/recruit`,
+			},
+		  },
 		'gatsby-plugin-sharp',
 		{
 			resolve: 'gatsby-transformer-remark',
@@ -48,6 +55,14 @@ module.exports = {
 						}
 					}
 				]
+			}
+		},
+		'gatsby-transformer-json',
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `data`,
+				path: `${__dirname}/src/data`
 			}
 		}
 	],

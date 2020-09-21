@@ -14,7 +14,7 @@ const Layout = (props) => {
         
         // 
         <div class="grid-wrapper">
-            <BigTop />
+            {/* <BigTop /> */}
             <Navbar />
             <Sidebar />
             <div class="content">

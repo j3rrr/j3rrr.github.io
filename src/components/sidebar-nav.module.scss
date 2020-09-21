@@ -1,0 +1,116 @@
+@import "../styles/variables";
+
+nav {
+    width: 100%;
+    //margin: 0 auto;
+    //background: #fff;
+    //padding: 50px 0;
+    //box-shadow: 0px 5px 0px #dedede;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding:0;
+  }
+  nav ul li {
+    display: block;
+  }
+  nav ul li a {
+    display: block;
+    line-height: 3rem;
+    // padding-top: 1rem;
+    // padding-bottom: 1rem;
+    text-decoration: none;
+    color: $offwhite;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: $gold;
+  }
+
+
+/* stroke */
+nav.fill ul li a {
+  position: relative;
+}
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+    color: $alliance;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+
+
+  /* Keyframes */
+  @keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: $gold;
+    }
+  }
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: $gold;
+    }
+  }
+
+
+ .active {
+     color: $gold;
+ }
