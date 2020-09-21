@@ -1,6 +1,7 @@
 {
     "nathria": {
         "progress": 1,
-        "max": 10
+        "max": 10,
+        "latest": "../spec/priest/shadow.png"
     }
 }

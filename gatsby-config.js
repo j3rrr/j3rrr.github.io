@@ -23,18 +23,20 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: 'src',
+				name: 'img',
 				path: `${__dirname}/src/posts/img`
 			}
 		},
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: 'src',
+				name: 'images',
 				path: `${__dirname}/src/images`
 			}
 		},
 		'gatsby-plugin-sharp',
+		'gatsby-transformer-sharp',
+		'gatsby-image',
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {

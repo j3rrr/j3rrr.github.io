@@ -1,8 +1,10 @@
 import React from "react"
 import {Link, graphql } from "gatsby"
+import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import Head from '../components/head'
-import indexStyles from '../pages/index.module.scss'
+//import indexStyles from '../pages/index.module.scss'
+import blogListStyles from './blog-list-template.module.scss'
 
 
 export default class BlogList extends React.Component {
@@ -17,31 +19,33 @@ export default class BlogList extends React.Component {
 
         return (
             <Layout>
-                <Head title="Home" />
-                <h1>Blog</h1>
-                <ol className={indexStyles.posts}>
-                {posts.map(({ node }) => {
-                    const title = node.frontmatter.title || node.fields.slug
-                    return (
-                        <li className={indexStyles.post}>
-                            <Link to={`/blog/${node.fields.slug}`}>
-                            <h2>{node.frontmatter.title}</h2>
-                            <p>{node.frontmatter.date}</p>
-                            </Link>
-                        </li>
-                    )
-                })}
-                </ol>
-                {!isFirst && (
-                    <Link to={prevPage} rel="prev">
-                        ← Previous Page
-                    </Link>
-                )}
-                {!isLast && (
-                    <Link to={nextPage} rel="next">
-                        Next Page →
-                    </Link>
-                )}
+                <Head title="Archiv" />
+                <div className={blogListStyles.cardContainer}>
+                    
+                    {posts.map(({ node }) => {
+                        // const title = node.frontmatter.title || node.fields.slug
+                        return (
+                            <div className={blogListStyles.cards}>
+                                <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />
+                                <Link to={`/blog/${node.fields.slug}`}>
+                                <h3>{node.frontmatter.title}</h3>
+                                {/* <p>{node.frontmatter.date}</p> */}
+                                </Link>
+                            </div>
+                        )
+                    })}
+                    
+                </div>
+                    {!isFirst && (
+                        <Link to={prevPage} rel="prev">
+                            ← Previous Page
+                        </Link>
+                    )}
+                    {!isLast && (
+                        <Link to={nextPage} rel="next">
+                            Next Page →
+                        </Link>
+                    )}
             </Layout>
         )
     }
@@ -62,6 +66,13 @@ export const blogListQuery = graphql`
                         frontmatter {
                         title
                         date(formatString: "DD.MM.YYYY")
+                        screenshot {
+                            childImageSharp {
+                                sizes(maxWidth: 630) {
+                                ...GatsbyImageSharpSizes
+                                }
+                            }
+                        }
                     }
                 }
             }

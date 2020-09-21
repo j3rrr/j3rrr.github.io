@@ -9,6 +9,7 @@ const Home = () => {
 	const data = useStaticQuery(graphql`
         query {
 			allMarkdownRemark(
+				
                 sort: {fields: [frontmatter___date], order: DESC}
                 limit: 1
             ) {
@@ -21,6 +22,7 @@ const Home = () => {
 						fields {
 							slug
 						}
+						html
 					}
 				}
 			}
@@ -30,19 +32,29 @@ const Home = () => {
     return (
 		<Layout>
 			<Head title="Home" />
-			<h1>Blog</h1>
-            <ol className={indexStyles.posts}>
-				{data.allMarkdownRemark.edges.map((edge) => {
-					return (
-						<li className={indexStyles.post}>
-							<Link to={`/blog/${edge.node.fields.slug}`}>
-								<h2>{edge.node.frontmatter.title}</h2>
-								<p>{edge.node.frontmatter.date}</p>
-							</Link>
-						</li>
-					)
-				})}
-			</ol>
+			<div class="mainWrapper">
+				
+					{data.allMarkdownRemark.edges.map((edge) => {
+						return (
+							<div className={indexStyles.post}>
+								
+									
+								<button className={indexStyles.btnHover}>
+									<Link to={`/blog/${edge.node.fields.slug}`}>
+										{edge.node.frontmatter.title}
+									</Link><br></br>
+									<div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
+								</button>
+									
+								
+									{/* <p>{edge.node.frontmatter.date}</p>
+									<div dangerouslySetInnerHTML={{__html: edge.node.html}}></div> */}
+								
+								
+							</div>
+						)
+					})}
+			</div>
 		</Layout>
 	)    
 	// return (

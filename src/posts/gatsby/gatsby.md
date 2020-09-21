@@ -1,7 +1,7 @@
 ---
 title: "The Great Gatsby"
 date: "2020-09-18"
-screenshot: ../img/carapace_kill.png
+screenshot: './killshot2.png'
 ---
 
 Gatsby Bootcamp!

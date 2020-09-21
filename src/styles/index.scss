@@ -1,10 +1,22 @@
 @import "variables";
 
+$mainContentBackground: url(../posts/raid1/killshot2.png);
+
 html, body {
     margin:0;
     padding: 0;
     height: 100%;
     color: $offwhite;
+}
+
+.mainWrapper {
+    background: $mainContentBackground;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-content: end;
+    z-index: 0;
 }
 
 // .grid-wrapper {
@@ -34,15 +46,15 @@ html, body {
     min-height: 100vh;
 }
 
-.bigTop { 
-    grid-area: bigtop;
-    background-color: $bg-dark;
-    border-bottom: solid .1px black;
-    background-image: url('../images/sl_bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// .bigTop { 
+//     grid-area: bigtop;
+//     background-color: $bg-dark;
+//     border-bottom: solid .1px black;
+//     background-image: url('../images/sl_bg.png');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
 .headerLogo {
     background-image: url('../images/logo_header.png');
@@ -123,7 +135,8 @@ html, body {
     grid-area: content;
     display: grid;
     //background-color: yellow;
-    grid-template-rows: min-content;
+    grid-template-rows: auto;  
+    background: linear-gradient(to right bottom, $bg-body, #2f3844);  
 }
 
 .box {
@@ -133,11 +146,7 @@ html, body {
     padding: 0;
 }
 
-.footer { 
-    grid-area: footer;
-    background-color: $bg-dark;
-    //background-color: purple;
- }
+
 
  @media only screen and (max-width: 600px){
     .grid-wrapper {

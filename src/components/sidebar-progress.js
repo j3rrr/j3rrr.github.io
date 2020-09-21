@@ -8,7 +8,7 @@ const SidebarProgress = () => {
         <div className={sidebarNavStyles.progressContainer}>
             <Link to="/about">
             <div className={sidebarNavStyles.progressContainerNathria}>
-                <img src="../progress/nathria.png" className={sidebarNavStyles.imageGrey}></img>
+                <img src="../progress/nathria.png" className={sidebarNavStyles.imageGrey} alt="nathria progress"></img>
             </div>
             </Link>
         </div>

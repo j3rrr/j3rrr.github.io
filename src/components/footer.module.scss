@@ -1,3 +1,33 @@
-.footer {
-    margin-top: 3rem;
+@import "../styles/variables";
+
+.footer { 
+    grid-area: footer;
+    background-color: $bg-dark;
+    padding-top: 20px;
+    padding-bottom: .6rem;
+    padding-right: .6rem;
+    text-align: right;
+    color: $itemPoor;
+    border-top: solid 1px $gold;
+    font-size: .7rem;
+    text-transform: uppercase;
+ }
+
+a {
+    text-transform: uppercase;
+    color: $itemPoor;
+    margin-right: .5rem;
+    padding:0;
+    
+    text-decoration: none;
+
+    
+}
+
+a:hover {
+    color: $gold;
+}
+
+svg {
+    margin-right: .5rem;
 }

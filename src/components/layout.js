@@ -4,7 +4,6 @@ import React from 'react'
 
 import '../styles/index.scss'
 import Footer from '../components/footer'
-import BigTop from '../components/bigtop'
 import Navbar from '../components/navbar'
 import Sidebar from '../components/sidebar'
 //import layoutStyles from './layout.module.scss'
