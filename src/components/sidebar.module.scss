@@ -30,7 +30,6 @@
     margin-top: 10px;
     padding-left: 15px;
     line-height: 1.1rem;
-    
 }
 
 .recruitList > span:nth-child(odd) {
@@ -42,6 +41,14 @@
 .recruitList > span:nth-child(even) {
     //background-color: red;
     padding-right: 20px;
+}
+
+.specNo {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    opacity: 0.3;
+    display:inline-block;
+    margin-right: 5px;
     img {
         padding-right: 5px;
         width: 16px;
@@ -49,19 +56,20 @@
     }
 }
 
-.specNo {
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    opacity: 0.3;
-}
-
 .specYes {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
+    display:inline-block;
+    margin-right: 5px;
+    img {
+        padding-right: 5px;
+        width: 16px;
+        height: 16px;
+    }
 }
 
 .dk {
-    background-image: url(../images/class/18/deathknight.gif);
+    background-image: url(../images/class/deathknight.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -69,10 +77,12 @@
     color: $dk;
     text-transform: uppercase;
     font-size: .7rem;
+    width:18px;
+    height: 18px;
 }
 
 .dh {
-    background-image: url(../images/class/18/demonhunter.png);
+    background-image: url(../images/class/demonhunter.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -83,7 +93,7 @@
 }
 
 .druid {
-    background-image: url(../images/class/18/druid.gif);
+    background-image: url(../images/class/druid.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -94,7 +104,7 @@
 }
 
 .hunter {
-    background-image: url(../images/class/18/hunter.gif);
+    background-image: url(../images/class/hunter.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -105,7 +115,7 @@
 }
 
 .mage {
-    background-image: url(../images/class/18/mage.gif);
+    background-image: url(../images/class/mage.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -116,7 +126,7 @@
 }
 
 .monk {
-    background-image: url(../images/class/18/monk.gif);
+    background-image: url(../images/class/monk.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -127,7 +137,7 @@
 }
 
 .paladin {
-    background-image: url(../images/class/18/paladin.gif);
+    background-image: url(../images/class/paladin.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -138,7 +148,7 @@
 }
 
 .priest {
-    background-image: url(../images/class/18/priest.gif);
+    background-image: url(../images/class/priest.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -149,7 +159,7 @@
 }
 
 .rogue {
-    background-image: url(../images/class/18/rogue.gif);
+    background-image: url(../images/class/rogue.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -160,7 +170,7 @@
 }
 
 .shaman {
-    background-image: url(../images/class/18/shaman.gif);
+    background-image: url(../images/class/shaman.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -171,7 +181,7 @@
 }
 
 .warlock {
-    background-image: url(../images/class/18/warlock.gif);
+    background-image: url(../images/class/warlock.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
@@ -182,7 +192,7 @@
 }
 
 .warrior {
-    background-image: url(../images/class/18/warrior.gif);
+    background-image: url(../images/class/warrior.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 23px;
