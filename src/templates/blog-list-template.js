@@ -26,7 +26,7 @@ export default class BlogList extends React.Component {
                         // const title = node.frontmatter.title || node.fields.slug
                         return (
                             <div className={blogListStyles.cards}>
-                                <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />
+                                {node.frontmatter.screenshot && <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />}
                                 <Link to={`/blog/${node.fields.slug}`}>
                                 <div className={blogListStyles.title}>{node.frontmatter.title}</div> 
                                 <div className={blogListStyles.subtitle} dangerouslySetInnerHTML={{__html: node.excerpt}}></div>                               
@@ -69,7 +69,8 @@ export const blogListQuery = graphql`
                     frontmatter {
                         title
                         date(formatString: "DD.MM.YYYY")
-                        screenshot {
+                        screenshot 
+                        {
                             childImageSharp {
                                 sizes(maxWidth: 630) {
                                 ...GatsbyImageSharpSizes
