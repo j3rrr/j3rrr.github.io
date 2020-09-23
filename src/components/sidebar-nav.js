@@ -18,11 +18,14 @@ const SidebarNav = () => {
                         <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
                     </li>
                     <li>
+                        <Link activeClassName={sidebarNavStyles.active} to="/posts/1">Archiv</Link>
+                    </li>
+                    {/* <li>
                         <a href="https://www.wowprogress.com/guild/eu/aegwynn/Zero" target="_blank" rel="noreferrer">WoW Progress</a>
                     </li>
                     <li>
                         <a href="https://worldofwarcraft.com/de-de/guild/eu/aegwynn/zero" target="_blank" rel="noreferrer">Arsenal</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>

@@ -18,7 +18,7 @@
 }
 
 .title {
-    padding-top: 10px;
+    padding-top: 0;
     padding-left: 15px;
     color: $offwhite;
 }
@@ -200,6 +200,47 @@
     color: $warrior;
     text-transform: uppercase;
     font-size: .7rem;
+}
+
+
+
+.rankwidget {
+    margin: 0 auto;
+    margin-top: 20px;
+    border:1px solid $gold;
+    background-color: $bg-dark;
+    text-align: center;
+    width: 60%;
+    line-height: 1rem;
+    display:block;
+    text-transform: uppercase;
+    
+    p {
+        margin:0;
+        padding:0;
+    }
+
+    .realmname{
+        margin-top: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;        
+    }
+
+    .subtitle {
+        line-height: 1rem;
+        font-size: .6rem;
+    }
+
+    .realmrank {
+        line-height: 2rem;
+        font-weight: 800;
+    }   
+
+    .progression {
+        color:$gold;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px){

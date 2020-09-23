@@ -17,9 +17,20 @@ const Footer = () => {
     return (
        
         <div class={footerStyles.footer}>
-            <Link to="/posts/1">Archiv</Link>
-            <GiUnicorn /> {data.site.siteMetadata.guild} @ {data.site.siteMetadata.realm}, © 2020
-            
+             <span className={footerStyles.linkContainer}>
+             <a href="https://worldofwarcraft.com/de-de/guild/eu/aegwynn/zero" target="_blank" rel="noreferrer">
+                    <span class="icon-wow"> </span>
+                </a>
+                <a href="https://raider.io/guilds/eu/aegwynn/Zero" target="_blank" rel="noreferrer">
+                    <span class="icon-raiderio"> </span>
+                </a>
+               
+            </span>
+            <span className={footerStyles.copyr}>
+                <Link to="/posts/1">Archiv</Link>
+                <GiUnicorn /> {data.site.siteMetadata.guild} @ {data.site.siteMetadata.realm}, © 2020
+            </span>
+           
         </div>
     )
 }

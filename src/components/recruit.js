@@ -14,9 +14,12 @@ function checkSpec(klasse, spec) {
     }
 }
 
-// function getIcon(klasse, spec){
-//     return recruitSpec[klasse][spec].icon
+// function getStatus(klasse){
+//     return recruitSpec[klasse].recruit
 // }
+
+
+
 
 
 const Recruit = () => {
@@ -25,22 +28,22 @@ const Recruit = () => {
         <div class="recruit">
             <span className={sidebarStyles.title}>Wir suchen:</span>
             <div className={sidebarStyles.recruitList}> 
-           
-            <span className={sidebarStyles.dh}>Dämonenjäger </span>
-                <span>
-                    <Image
-                        src="images/spec/demonhunter/vengeance.png"
-                        className={sidebarStyles[checkSpec("dh", "vengeance")]}
-                        alt="dh vengeance"
-                        style={{width:'16px',height:'16px'}}
-                    />
-                    <Image
-                        src="images/spec/demonhunter/havoc.png"
-                        className={sidebarStyles[checkSpec("dh", "havoc")]}
-                        alt="dh havoc"
-                        style={{width:'16px',height:'16px'}}
-                    />
-                </span>
+            
+                <span className={sidebarStyles.dh}>Dämonenjäger </span>
+                    <span>
+                        <Image
+                            src="images/spec/demonhunter/vengeance.png"
+                            className={sidebarStyles[checkSpec("dh", "vengeance")]}
+                            alt="dh vengeance"
+                            style={{width:'16px',height:'16px'}}
+                        />
+                        <Image
+                            src="images/spec/demonhunter/havoc.png"
+                            className={sidebarStyles[checkSpec("dh", "havoc")]}
+                            alt="dh havoc"
+                            style={{width:'16px',height:'16px'}}
+                        />
+                    </span>
                 <span className={sidebarStyles.druid}>Druide</span>
                 <span>
                     <Image

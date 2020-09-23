@@ -8,8 +8,8 @@ $nathriaProgressRight: ($nathriaMax - $nathriaDown ) * $nathriaMaxPerc;
 $nathriaProgressWidth: $nathriaDown * $nathriaMaxPerc;
 
 .progressContainer {
-    margin-bottom: 2rem;
-    padding-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
 }
 
 

@@ -1,5 +1,6 @@
 {
     "dh": {
+        "recruit": false,
         "havoc": {
             "active": true,
              "icon": "../spec/demonhunter/havoc.png"
