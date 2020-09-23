@@ -12,11 +12,11 @@ const Layout = (props) => {
     return (
         
         // 
-        <div class="grid-wrapper">
+        <div className="grid-wrapper">
             {/* <BigTop /> */}
             <Navbar />
             <Sidebar />
-            <div class="content">
+            <div className="content">
                 {props.children}    
             </div>
             <Footer />

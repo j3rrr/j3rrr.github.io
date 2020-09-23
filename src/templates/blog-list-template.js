@@ -26,8 +26,8 @@ export default class BlogList extends React.Component {
                         // const title = node.frontmatter.title || node.fields.slug
                         return (
                             <div className={blogListStyles.cards}>
-                                {node.frontmatter.screenshot && <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />}
                                 <Link to={`/blog/${node.fields.slug}`}>
+                                {node.frontmatter.screenshot && <Img sizes={node.frontmatter.screenshot.childImageSharp.sizes} />}                                
                                 <div className={blogListStyles.title}>{node.frontmatter.title}</div> 
                                 <div className={blogListStyles.subtitle} dangerouslySetInnerHTML={{__html: node.excerpt}}></div>                               
                                 </Link>

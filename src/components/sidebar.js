@@ -16,7 +16,7 @@ import logo from "../images/logo_header.png"
     // render(){
 
         // Client-side Runtime Data Fetching
-        const [guildName, setGuildName] = useState(0)
+        //const [guildName, setGuildName] = useState(0)
         const [realmName, setRealmName] = useState(1)
         const [realmRank, setRealmRank] = useState(2)
         const [progression, setProgression] = useState(3)
@@ -25,7 +25,7 @@ import logo from "../images/logo_header.png"
             fetch(`https://raider.io/api/v1/guilds/profile?region=eu&realm=aegwynn&name=zero&fields=raid_progression%2Craid_rankings`)
             .then(response => response.json()) // parse JSON from request
             .then(resultData => {
-                setGuildName(resultData.name)
+                //setGuildName(resultData.name)
                 setRealmName(resultData.realm)
                 setRealmRank(resultData.raid_rankings["nyalotha-the-waking-city"].mythic.realm)
                 setProgression(resultData.raid_progression["nyalotha-the-waking-city"].summary)
@@ -34,21 +34,22 @@ import logo from "../images/logo_header.png"
         // const {loading, fetchData} = this.state
 
         return (
-            <div class="sidebar">
+            <div className="sidebar">
                 <div>
                     <img src={logo} alt="zero logo"  className={sidebarStyles.logo}></img>
                 </div>
                 <SidebarNav />
                 <SidebarProgress />
                 <Recruit />
-                <div className={sidebarStyles.rankwidget}>
-                    {/* <span>{guildName} </span> */}
-                    <p className={sidebarStyles.realmname}>{realmName}</p>
-                    <p className={sidebarStyles.subtitle}>Realm Rank</p>
-                    <p className={sidebarStyles.realmrank}>{realmRank}</p>
-                    <p className={sidebarStyles.progression}>{progression}</p>
-                </div>
-                
+                <a href="https://www.wowprogress.com/guild/eu/aegwynn/Zero" target="_blank" rel="noreferrer">
+                    <div className={sidebarStyles.rankwidget}>
+                        {/* <span>{guildName} </span> */}
+                        <p className={sidebarStyles.realmname}>{realmName}</p>
+                        <p className={sidebarStyles.subtitle}>Realm Rank</p>
+                        <p className={sidebarStyles.realmrank}>{realmRank}</p>
+                        <p className={sidebarStyles.progression}>{progression}</p>
+                    </div>
+                </a>
                 
             </div> 
         )

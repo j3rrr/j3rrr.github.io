@@ -33,11 +33,11 @@ const Home = () => {
     return (
 		<Layout>
 			<Head title="Home" />
-			<div class="mainWrapper">
+			<div className="mainWrapper">
 				
 					{data.allMarkdownRemark.edges.map((edge) => {
 						return (
-							<div className={indexStyles.post}>
+							<div className={indexStyles.post} key="home">
 								
 									
 								<button className={indexStyles.btnHover}>
@@ -62,7 +62,7 @@ const Home = () => {
 	// 	<Layout>
 	// 		<Head title="Home" />
 
-	// 		<div class="box">
+	// 		<div className="box">
 	// 			<h1>Hello Zero!!!</h1>
 	// 			<h2>Exercitation excepteur officia proident aliqua ullamco sunt duis commodo sint.</h2>
 	// 			<p>Kontakt <Link to="/contact">hier</Link></p> 

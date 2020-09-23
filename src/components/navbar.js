@@ -5,9 +5,9 @@ import {Link} from 'gatsby'
 
 const Navbar = () => {
     return (
-        <div class="navbar">
-            <div class="nav-wrapper-grid">
-                <ul class="nav-links">
+        <div className="navbar">
+            <div className="nav-wrapper-grid">
+                <ul className="nav-links">
                     <li>
                         <Link to="/">Home</Link>
                     </li>

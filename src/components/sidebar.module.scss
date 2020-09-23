@@ -13,23 +13,53 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.allianceLogo {
+    margin-top:2rem;
+    font-size: 13rem;
+    color:$offwhite;
+    opacity: 4%;
+    text-align: center;
 }
 
 .title {
     padding-top: 0;
-    padding-left: 15px;
+    //padding-left: 15px;
     color: $offwhite;
+    opacity: 80%;
+    font-size: .7rem;
+    font-weight:600;
+    letter-spacing: .1rem;
+    line-height: 1rem;
+    width:100%;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
 }
 
 .recruitList {
     display: grid;
-    grid-template-columns: .05fr max-content;
+    grid-template-columns: 1fr max-content;
     padding: 0;
     margin-top: 10px;
     padding-left: 15px;
     line-height: 1.1rem;
+    position: relative;
+}
+.recruitList::before{
+    
+        position: absolute;
+        font-family: 'zero';
+        margin-top:2rem;
+        font-size: 13rem;
+        color:$offwhite;
+        opacity: 4%;
+        padding-left:45px;
+        padding-top: 70px;
+        content: "\e900";
 }
 
 .recruitList > span:nth-child(odd) {
@@ -77,8 +107,8 @@
     color: $dk;
     text-transform: uppercase;
     font-size: .7rem;
-    width:18px;
-    height: 18px;
+    width:16px;
+    height: 16px;
 }
 
 .dh {
@@ -90,6 +120,8 @@
     color: $dh;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .druid {
@@ -101,6 +133,8 @@
     color: $druid;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .hunter {
@@ -112,6 +146,8 @@
     color: $hunter;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .mage {
@@ -123,6 +159,8 @@
     color: $mage;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .monk {
@@ -134,6 +172,8 @@
     color: $monk;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .paladin {
@@ -145,6 +185,8 @@
     color: $paladin;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .priest {
@@ -156,6 +198,8 @@
     color: $priest;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .rogue {
@@ -167,6 +211,8 @@
     color: $rogue;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .shaman {
@@ -178,6 +224,8 @@
     color: $shaman;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .warlock {
@@ -189,6 +237,8 @@
     color: $warlock;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 .warrior {
@@ -200,46 +250,56 @@
     color: $warrior;
     text-transform: uppercase;
     font-size: .7rem;
+    width:16px;
+    height: 16px;
 }
 
 
-
-.rankwidget {
-    margin: 0 auto;
-    margin-top: 20px;
-    border:1px solid $gold;
-    background-color: $bg-dark;
-    text-align: center;
-    width: 60%;
-    line-height: 1rem;
-    display:block;
-    text-transform: uppercase;
-    
-    p {
-        margin:0;
-        padding:0;
-    }
-
-    .realmname{
-        margin-top: 1rem;
-        line-height: 1.5rem;
-        font-weight: 600;        
-    }
-
-    .subtitle {
+a{
+    text-decoration: none;
+    .rankwidget {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border:1px solid $gold;
+        background-color: $bg-dark;
+        text-align: center;
+        width: 60%;
         line-height: 1rem;
-        font-size: .6rem;
-    }
+        display:block;
+        text-transform: uppercase;
+        
+        p {
+            margin:0;
+            padding:0;
+        }
 
-    .realmrank {
-        line-height: 2rem;
-        font-weight: 800;
-    }   
+        .realmname{
+            margin-top: 1rem;
+            line-height: 1.5rem;
+            font-weight: 600;    
+            color:$offwhite; 
+        }
 
-    .progression {
-        color:$gold;
-        line-height: 1.5rem;
-        margin-bottom: 1rem;
+        .subtitle {
+            line-height: 1rem;
+            font-size: .6rem;         
+            color: $itemPoor;   
+        }
+
+        .realmrank {
+            line-height: 3rem;
+            font-weight: 800;
+            font-size: 2rem;
+            color:$gold;
+        }   
+
+        .progression {
+            color:$gold; 
+            line-height: 1rem;
+            font-size: .8rem;
+            margin-bottom: 1rem;
+        }
     }
 }
 

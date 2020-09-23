@@ -1,47 +1,5 @@
 @import "../styles/variables";
 
-.footer { 
-    grid-area: footer;
-    background-color: $bg-dark;
-    padding-top: 20px;
-    padding-bottom: .6rem;
-    padding-right: .6rem;
-    text-align: right;
-    color: $itemPoor;
-    border-top: solid 1px $gold;
-    font-size: .7rem;
-    text-transform: uppercase;
-    display:block;
-    clear: both;
 
-    a {
-        text-transform: uppercase;
-        color: $itemPoor;
-        margin-right: .6rem;
-        padding:0;
-        
-        text-decoration: none;
-    
-        
-    }
-    
-    a:hover {
-        color: $gold;
-    }
-    
-    svg {
-        margin-right: .5rem;
-    }
-    
-    .copyr {
-        float: right;
-    }
-    
-    .linkContainer {        
-        font-size: 1rem;
-        float: left;
-        margin-left: 30px;
-    }
- }
 
 

@@ -8,16 +8,16 @@ const SidebarNav = () => {
         <div>
             <nav className={sidebarNavStyles.fill}>
                 <ul>
-                    <li>
+                    <li key="home">
                         <Link activeClassName={sidebarNavStyles.active} to="/">Home</Link>
                     </li>
-                    <li>
+                    <li key="about">
                         <Link activeClassName={sidebarNavStyles.active} to="/about">Die Gilde</Link>
                     </li>
-                    <li>
+                    <li key="recruit">
                         <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
                     </li>
-                    <li>
+                    <li key="posts">
                         <Link activeClassName={sidebarNavStyles.active} to="/posts/1">Archiv</Link>
                     </li>
                     {/* <li>

@@ -1,6 +1,7 @@
-{
+{   
+    "open": true,
     "dh": {
-        "recruit": false,
+        "recruit":false,
         "havoc": {
             "active": true,
              "icon": "../spec/demonhunter/havoc.png"
@@ -11,6 +12,7 @@
         }
     },
     "druid": {
+        "recruit":true,
         "guardian": {
             "active": false,
              "icon": "../spec/druid/guardian.png"
@@ -29,6 +31,7 @@
         }
     },
     "warlock": {
+        "recruit":true,
         "affli": {
             "active": true,
              "icon": "../spec/warlock/affliction.png"
@@ -42,6 +45,7 @@
              "icon": "../spec/warlock/demonology.png"
         }
     },"hunter": {
+        "recruit":false,
         "bm": {
             "active": true,
              "icon": "../spec/hunter/beastmastery.png"
@@ -55,6 +59,7 @@
              "icon": "../spec/hunter/survival.png"
         }
     },"warrior": {
+        "recruit":false,
         "prot": {
             "active": false,
              "icon": "../spec/warrior/protection.png"
@@ -69,6 +74,7 @@
         }
     },
     "mage": {
+        "recruit":false,
         "frost": {
             "active": true,
              "icon": "../spec/mage/frost.png"
@@ -83,6 +89,7 @@
         }
     },
     "monk": {
+        "recruit":false,
         "bm": {
             "active": false,
              "icon": "../spec/monk/brewmaster.png"
@@ -97,6 +104,7 @@
         }
     },
     "paladin": {
+        "recruit":false,
         "prot": {
             "active": false,
              "icon": "../spec/paladin/protection.png"
@@ -111,6 +119,7 @@
         }
     },
     "priest": {
+        "recruit":true,
         "holy": {
             "active": false,
              "icon": "../spec/priest/holy.png"
@@ -125,6 +134,7 @@
         }
     },
     "shaman": {
+        "recruit":false,
         "ele": {
             "active": true,
              "icon": "../spec/shaman/elemental.png"
@@ -139,6 +149,7 @@
         }
     },
     "rogue": {
+        "recruit":false,
         "outlaw": {
             "active": true,
              "icon": "../spec/rogue/combat.png"
@@ -153,6 +164,7 @@
         }
     },
     "dk": {
+        "recruit":false,
         "blood": {
             "active": false,
              "icon": "../spec/deathknight/blood.png"

@@ -14,6 +14,10 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
     grid-gap: 2em;
     height: 800px;
     padding: 1em;
+    a{
+        text-decoration: none;        
+        color: $gold;
+    }
 }
 
 
@@ -24,6 +28,8 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 13px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: all .2s ease-out;
+    
+   
 }
 
 .cards:hover {
@@ -42,9 +48,12 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .cards .subtitle {
-    padding-top: 10px;
-    font-size: .8rem;
+    // padding-top: 10px;
+    // padding-bottom:2rem;
+    line-height: 3rem;
+    font-size: .7rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -52,7 +61,7 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
     font-weight: 600;
     text-align: center;
     padding:20px 0px 0px 0px;
-    /* Shorthand padding: top right bottom left */
+    font-size: 1.2rem;
 }
 
 
