@@ -1,5 +1,5 @@
 import React from "react"
-import {Link, graphql } from "gatsby"
+import {graphql } from "gatsby"
 // import Img from 'gatsby-image'
 import Image from '../components/Image'
 import Layout from "../components/layout"
@@ -50,12 +50,12 @@ export default class BlogList extends React.Component {
                                 } 
                                 <figcaption>
                                     <div className={`${blogListStyles.overlay} ${blogListStyles.icons}`}>
-                                        <Link className={blogListStyles.icon} to={node.frontmatter.screenshot.relativePath}>
+                                        <AniLink fade className={blogListStyles.icon} to={node.frontmatter.screenshot.relativePath}>                                       
                                             <BsCardImage />                                        
-                                        </Link>
-                                        <Link className={blogListStyles.icon} to={`/blog/${node.fields.slug}`}>
+                                        </AniLink>
+                                        <AniLink fade className={blogListStyles.icon} to={`/blog/${node.fields.slug}`}>
                                             <BiDetail />
-                                        </Link>
+                                        </AniLink>
                                     </div>
                                     <div className={blogListStyles.figText}>
                                         <h3>{node.frontmatter.title}</h3>

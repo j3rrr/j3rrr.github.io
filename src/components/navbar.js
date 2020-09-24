@@ -1,6 +1,6 @@
 import React from 'react'
-import {Link} from 'gatsby'
 import sidebarNavStyles from './sidebar-nav.module.scss'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 //import navbarStyles from './navbar.module.scss'
 
@@ -9,17 +9,45 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav-wrapper-grid">
                 <ul className="nav-links">
-                    <li key="home">
-                        <Link activeClassName={sidebarNavStyles.active} to="/">Home</Link>
+                <li key="home">
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/"
+                        rel="home"
+                    >
+                        Home
+                    </AniLink>
                     </li>
                     <li key="about">
-                        <Link activeClassName={sidebarNavStyles.active} to="/about">Die Gilde</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/about"
+                        rel="home"
+                    >
+                        Die Gilde
+                    </AniLink>
                     </li>
                     <li key="recruit">
-                        <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/recruit"
+                        rel="home"
+                    >
+                        Recruit
+                    </AniLink>
                     </li>
                     <li key="posts">
-                        <Link activeClassName={sidebarNavStyles.active} to="/posts/1">Archiv</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/posts/1"
+                        rel="home"
+                    >
+                        Archiv
+                    </AniLink>
                     </li>
                 </ul>
             </div>

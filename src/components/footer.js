@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link, graphql, useStaticQuery} from 'gatsby'
+import {graphql, useStaticQuery} from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 //import footerStyles from './footer.module.scss'
 import { GiUnicorn } from "react-icons/gi";
@@ -27,7 +28,7 @@ const Footer = () => {
                
             </span>
             <span className="copyr">
-                <Link to="/posts/1">Archiv</Link>
+                {/* <Link to="/posts/1">Archiv</Link> */}
                 <GiUnicorn /> {data.site.siteMetadata.guild} @ {data.site.siteMetadata.realm}, © 2020
             </span>
            

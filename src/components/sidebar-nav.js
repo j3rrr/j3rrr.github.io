@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import sidebarNavStyles from './sidebar-nav.module.scss'
 
@@ -9,16 +9,44 @@ const SidebarNav = () => {
             <nav className={sidebarNavStyles.fill}>
                 <ul>
                     <li key="home">
-                        <Link activeClassName={sidebarNavStyles.active} to="/">Home</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/"
+                        rel="home"
+                    >
+                        Home
+                    </AniLink>
                     </li>
                     <li key="about">
-                        <Link activeClassName={sidebarNavStyles.active} to="/about">Die Gilde</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/about"
+                        rel="home"
+                    >
+                        Die Gilde
+                    </AniLink>
                     </li>
                     <li key="recruit">
-                        <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/recruit"
+                        rel="home"
+                    >
+                        Recruit
+                    </AniLink>
                     </li>
                     <li key="posts">
-                        <Link activeClassName={sidebarNavStyles.active} to="/posts/1">Archiv</Link>
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/posts/1"
+                        rel="home"
+                    >
+                        Archiv
+                    </AniLink>
                     </li>
                     {/* <li>
                         <a href="https://www.wowprogress.com/guild/eu/aegwynn/Zero" target="_blank" rel="noreferrer">WoW Progress</a>
