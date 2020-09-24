@@ -5,7 +5,7 @@ import Recruit from '../components/recruit'
 import SidebarNav from '../components/sidebar-nav'
 import SidebarProgress from '../components/sidebar-progress'
 import sidebarStyles from './sidebar.module.scss'
-import logo from "../images/logo_header.png"
+import Image from '../components/Image'
 
 // const Sidebar = () => {
 // export default class Sidebar extends React.Component {
@@ -36,7 +36,9 @@ import logo from "../images/logo_header.png"
         return (
             <div className="sidebar">
                 <div>
-                    <img src={logo} alt="zero logo"  className={sidebarStyles.logo}></img>
+                    <div className={sidebarStyles.logo}>
+                        <Image src="images/logo_header.png" />
+                    </div>
                 </div>
                 <SidebarNav />
                 <SidebarProgress />

@@ -9,12 +9,10 @@
 }
 
 .logo {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    width: 60%;
     display: block;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    margin: 50px auto 30px;
 }
 
 .allianceLogo {
@@ -49,8 +47,7 @@
     line-height: 1.1rem;
     position: relative;
 }
-.recruitList::before{
-    
+.recruitList::before{    
         position: absolute;
         font-family: 'zero';
         margin-top:2rem;
@@ -303,15 +300,19 @@ a{
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 769px){
     .recruitList {
         display: grid;
-        grid-template-columns: .5fr .3fr;
+        grid-template-columns: .5fr .3fr;        
+    }
+    .recruitList::before{  
+        padding-left:130px;
+        padding-top: 70px;
     }
     .logo {
-        width: 30%;
-        margin-left: 0;
-      margin-right: auto;
-      display: block;
+        position: relative;
+        width: 40%;
+        display: block;
+        margin: 50px auto 20px;
     }
- }
+}

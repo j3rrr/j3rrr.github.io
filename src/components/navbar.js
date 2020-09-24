@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import sidebarNavStyles from './sidebar-nav.module.scss'
 
 //import navbarStyles from './navbar.module.scss'
 
@@ -8,20 +9,17 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav-wrapper-grid">
                 <ul className="nav-links">
-                    <li>
-                        <Link to="/">Home</Link>
+                    <li key="home">
+                        <Link activeClassName={sidebarNavStyles.active} to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/about">Die Gilde</Link>
+                    <li key="about">
+                        <Link activeClassName={sidebarNavStyles.active} to="/about">Die Gilde</Link>
                     </li>
-                    <li>
-                        <Link to="/recruit">Recruit</Link>
+                    <li key="recruit">
+                        <Link activeClassName={sidebarNavStyles.active} to="/recruit">Recruit</Link>
                     </li>
-                    <li>
-                        <a href="https://www.wowprogress.com/guild/eu/aegwynn/Zero" target="_blank" rel="noreferrer">WoW Progress</a>
-                    </li>
-                    <li>
-                        <a href="https://worldofwarcraft.com/de-de/guild/eu/aegwynn/zero" target="_blank" rel="noreferrer">Arsenal</a>
+                    <li key="posts">
+                        <Link activeClassName={sidebarNavStyles.active} to="/posts/1">Archiv</Link>
                     </li>
                 </ul>
             </div>

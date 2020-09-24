@@ -7,28 +7,6 @@ $nathriaMaxPerc: (100% / $nathriaMax);
 $nathriaProgressRight: ($nathriaMax - $nathriaDown ) * $nathriaMaxPerc;
 $nathriaProgressWidth: $nathriaDown * $nathriaMaxPerc;
 
-//Castle Nathria Progress
-
-
-.progressContainerNathriaNull {
-    // position:absolute;
-    // content:"";
-    // top:0;
-    // right:0; // (max - down) *max%
-    //     width:0; // down * max%
-    // height:100%;
-    // background-image:url(../images/progress/nathria.png);
-    // background-position:top left;
-    // border-right: 1px $gold solid;
-    // border-left: 1px $gold solid;
-    color:green;
-}
-
-.test{
-    color:purple;
-}
-
-
 
 .progressContainer {
     margin-bottom: 0;
@@ -49,7 +27,7 @@ $nathriaProgressWidth: $nathriaDown * $nathriaMaxPerc;
     -webkit-filter: grayscale(100%);
 }
 
-.progressContainerNathria:after {
+.progressContainerNathria::after {
     position:absolute;
     content:"";
     top:0;
@@ -60,4 +38,13 @@ $nathriaProgressWidth: $nathriaDown * $nathriaMaxPerc;
     background-position:top left;
     border-right: 1px $gold solid;
     border-left: 1px $gold solid;
+}
+
+@media only screen and (max-width: 769px){
+    .progressContainerNathria {
+        width:220px;
+        border: 1px solid$gold;
+        margin: 0 auto;
+    }
+    
 }
