@@ -29,6 +29,12 @@ $mainContentBackground: url(../images/progress/current.png);
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-hearthstone {
+    &:before {
+      content: $icon-hearthstone; 
+    }
+  }
+
   .icon-alliance {
     &:before {
       content: $icon-alliance; 
@@ -52,7 +58,8 @@ html, body {
     padding: 0;
     height: 100%;
     color: $offwhite;
-    font-family: 'Lato', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .itemEpic {
@@ -66,6 +73,44 @@ html, body {
     &:hover {
         color: $itemLegendary;
     }
+}
+
+.dk{
+    color:$dk;
+}
+.dh {
+    color:$dh;
+}
+.druid {
+    color:$druid;
+}
+.hunter {
+    color:$hunter;
+    font-weight: bold;
+}
+.mage {
+    color:$mage;
+}
+.monk {
+    color:$monk;
+}
+.paladin {
+    color:$paladin;
+}
+.priest {
+    color:$priest;
+}
+.rogue {
+    color:$rogue;
+}
+.shaman {
+    color:$shaman;
+}
+.warlock {
+    color:$warlock;
+}
+.warrior {
+    color:$warrior;
 }
 
 .mainWrapper {
@@ -94,7 +139,8 @@ html, body {
 // }
 .grid-wrapper {
     background-color: $bg-body;
-    font-family: 'Lato', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: grid;
     grid-template-columns: 260px auto;
     grid-template-rows: min-content auto min-content;
@@ -257,7 +303,8 @@ html, body {
  @media only screen and (max-width: 769px){
     .grid-wrapper {
         background-color: $bg-body;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        // font-family: 'Lato', sans-serif;
         display: grid;
         grid-template-columns: none;
         grid-template-rows: min-content auto min-content min-content;

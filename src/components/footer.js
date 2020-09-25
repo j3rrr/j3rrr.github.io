@@ -1,6 +1,6 @@
 import React from 'react'
 import {graphql, useStaticQuery} from 'gatsby'
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+//import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 //import footerStyles from './footer.module.scss'
 import { GiUnicorn } from "react-icons/gi";

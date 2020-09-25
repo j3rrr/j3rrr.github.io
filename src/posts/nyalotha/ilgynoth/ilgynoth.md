@@ -8,7 +8,7 @@ screenshot: './killshot2.png'
 
 <!-- end -->
 
-![alt](./killshot2.png)
+<!-- ![alt](./killshot2.png) -->
 
 ### Hier könnte ihre Werbung stehen
 
@@ -16,4 +16,8 @@ screenshot: './killshot2.png'
 2. [Lightbringer Faceguard](https://www.wowhead.com/item=30987){class="itemEpic" target="_blank"}
 3. [Bedeckung des Himmelsdonners](https://de.wowhead.com/item=31015){class="itemEpic" target="_blank"}
 4. [Lightbringer Faceguard](https://www.wowhead.com/item=30987){class="itemEpic" target="_blank"}
+
+
+
+
 

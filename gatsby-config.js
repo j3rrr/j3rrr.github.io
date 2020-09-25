@@ -70,6 +70,29 @@ module.exports = {
 			}
 		},
 		`gatsby-plugin-transition-link`,
+		{
+			resolve: 'gatsby-source-rio-bosskill',
+			options: {
+				region: 'eu',
+				realm: 'aegwynn',
+				guild: 'zero',
+				raid: 'nyalotha-the-waking-city',
+				boss: 'carapace-of-nzoth',
+				difficulty: 'mythic',
+			},
+		},
+		{
+			resolve: 'gatsby-source-rio-bosskill',
+			options: {
+				region: 'eu',
+				realm: 'aegwynn',
+				guild: 'zero',
+				raid: 'nyalotha-the-waking-city',
+				boss: 'vexiona',
+				difficulty: 'mythic',
+			},
+		},
+		
 	],
 }
 		// {

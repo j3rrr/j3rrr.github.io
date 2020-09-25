@@ -1,5 +1,7 @@
 import React from "react"
-import {Link, graphql, useStaticQuery} from 'gatsby'
+import {graphql, useStaticQuery} from 'gatsby'
+
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from '../components/layout'
 import Head from '../components/head'
@@ -41,9 +43,9 @@ const Home = () => {
 								
 									
 								<button className={indexStyles.btnHover}>
-									<Link to={`/blog/${edge.node.fields.slug}`}>
+									<AniLink fade to={`/blog/${edge.node.fields.slug}`}>
 										{edge.node.frontmatter.title}
-									</Link><br></br>
+									</AniLink><br></br>
 									<div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.excerpt}}></div>
 								</button>
 									
