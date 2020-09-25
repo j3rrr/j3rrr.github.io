@@ -20,6 +20,7 @@ const Home = () => {
 						frontmatter {
 							title
 							date(formatString: "DD.MM.YYYY")
+							progress
 						}
 						fields {
 							slug
@@ -46,7 +47,8 @@ const Home = () => {
 									<AniLink fade to={`/blog/${edge.node.fields.slug}`}>
 										{edge.node.frontmatter.title}
 									</AniLink><br></br>
-									<div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.excerpt}}></div>
+									{/* <div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.excerpt}}></div> */}
+									<div className={indexStyles.desc}>{edge.node.frontmatter.progress}</div>
 								</button>
 									
 								

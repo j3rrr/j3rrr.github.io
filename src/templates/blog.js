@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, graphql} from 'gatsby'
+import {graphql} from 'gatsby'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 //import Img from 'gatsby-image'
 
@@ -18,17 +18,17 @@ export default function Blog ({data}) {
                     <div  className={blogStyles.postContent}>
                         
                         <h1>{data.postData.frontmatter.title}</h1>
-                        <h5>{data.postData.excerpt}</h5>
+                        <h5>{data.postData.frontmatter.progress}</h5>
 
                         {data.postData.frontmatter.screenshot && 
                         //TODO Link zum Bild !!!
                             // <Link to={data.markdownRemark.frontmatter.screenshot.childImageSharp.original.src}>
-                            <Link to={data.postData.frontmatter.screenshot.relativePath}>
+                            <a href={data.postData.frontmatter.screenshot.childImageSharp.original.src} target="_blank" rel="noreferrer">
                                 <Image
                                     src={data.postData.frontmatter.screenshot.relativePath}     
                                     className={blogStyles.screenshot}                                   
                                 />  
-                            </Link>                                  
+                            </a>                                  
                         }
                         <div className={blogStyles.mdContent} dangerouslySetInnerHTML={{__html: data.postData.html}}></div>
                           
@@ -54,6 +54,7 @@ export const blogQuery = graphql`
                 frontmatter{
                     title
                     date
+                    progress
                     screenshot {
                         base
                         relativePath

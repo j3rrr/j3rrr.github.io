@@ -44,6 +44,33 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
     `)
 
+    const galres = await graphql(`
+    {
+        allFile(
+            limit: 1000
+            filter:{
+              relativeDirectory: {
+                eq: "images/gallery"
+              }     
+            }
+          ){
+            totalCount
+            edges{
+              node{
+                relativeDirectory
+                relativePath
+                base
+              }
+            }
+          }
+        }
+    `)
+
+    if (galres.errors) {
+        reporter.panicOnBuild(`Error while running GraphQL query.`)
+        return
+      }
+
     if (res.errors) {
         reporter.panicOnBuild(`Error while running GraphQL query.`)
         return
@@ -73,6 +100,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             skip: i * postsPerPage,
             numPages,
             currentPage: i + 1,
+        },
+        })
+    })
+
+    // Create gallery pages
+    const images = galres.data.allFile.edges
+    const imagesPerPage = 8
+    const numGalPages = Math.ceil(images.length / imagesPerPage)
+    Array.from({ length: numGalPages }).forEach((_, j) => {
+        createPage({
+        path: `/gallery/${j + 1}`,
+        component: path.resolve("./src/templates/gallery.js"),
+        context: {
+            limit: imagesPerPage,
+            skip: j * imagesPerPage,
+            numGalPages,
+            currentGalPage: j + 1,
         },
         })
     })

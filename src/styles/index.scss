@@ -77,40 +77,51 @@ html, body {
 
 .dk{
     color:$dk;
+    font-weight: 500;
 }
 .dh {
     color:$dh;
+    font-weight: 500;
 }
 .druid {
     color:$druid;
+    font-weight: 500;
 }
 .hunter {
     color:$hunter;
-    font-weight: bold;
+    font-weight: 500;
 }
 .mage {
     color:$mage;
+    font-weight: 500;
 }
 .monk {
     color:$monk;
+    font-weight: 500;
 }
 .paladin {
     color:$paladin;
+    font-weight: 500;
 }
 .priest {
     color:$priest;
+    font-weight: 500;
 }
 .rogue {
     color:$rogue;
+    font-weight: 500;
 }
 .shaman {
     color:$shaman;
+    font-weight: 500;
 }
 .warlock {
     color:$warlock;
+    font-weight: 500;
 }
 .warrior {
     color:$warrior;
+    font-weight: 500;
 }
 
 .mainWrapper {
@@ -298,6 +309,25 @@ html, body {
     }
  }
 
+.setupTable {
+    padding-top: 2rem;
+    display: grid;
+    width: 80%;
+    margin:0 auto;
+    grid-template-columns: repeat(5,.2fr);
+    // border-top: 1px solid red;
+    // border-right: 1px solid purple;
+    text-align: center;
+}
+
+.setupTable > span {
+    // padding: 8px 4px;
+    // border-left: 1px solid green;
+    // border-bottom: 1px solid blue;
+    // border:1px solid red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
  @media only screen and (max-width: 769px){

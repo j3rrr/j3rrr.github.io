@@ -13,6 +13,9 @@ import { BiDetail } from 'react-icons/bi';
 
 export default class BlogList extends React.Component {
     render() {
+        const { limit, skip } = this.props.pageContext
+      console.log("limit:", limit)
+      console.log("skip:", skip)
         const posts = this.props.data.allMarkdownRemark.edges
 
         const { currentPage, numPages } = this.props.pageContext
@@ -50,9 +53,9 @@ export default class BlogList extends React.Component {
                                 } 
                                 <figcaption>
                                     <div className={`${blogListStyles.overlay} ${blogListStyles.icons}`}>
-                                        <AniLink fade className={blogListStyles.icon} to={node.frontmatter.screenshot.relativePath}>                                       
+                                        <a className={blogListStyles.icon} href={node.frontmatter.screenshot.childImageSharp.original.src} target="_blank" rel="noreferrer">                                       
                                             <BsCardImage />                                        
-                                        </AniLink>
+                                        </a>
                                         <AniLink fade className={blogListStyles.icon} to={`/blog/${node.fields.slug}`}>
                                             <BiDetail />
                                         </AniLink>
@@ -60,7 +63,7 @@ export default class BlogList extends React.Component {
                                     <div className={blogListStyles.figText}>
                                         <h3>{node.frontmatter.title}</h3>
                                         {/* <span className={blogListStyles.titleAdd}>{node.frontmatter.date}</span> */}
-                                        <p dangerouslySetInnerHTML={{__html: node.excerpt}}></p>
+                                        <p>{node.frontmatter.progress}</p>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -112,11 +115,13 @@ export const blogListQuery = graphql`
                     frontmatter {
                         title
                         date(formatString: "DD.MM.YYYY")
+                        progress
                         screenshot 
                         {   
                             relativePath
-                            absolutePath
+                            absolutePath                            
                             childImageSharp {
+                                original{src}
                                 fluid(maxWidth: 630) {
                                 ...GatsbyImageSharpFluid
                                 }
