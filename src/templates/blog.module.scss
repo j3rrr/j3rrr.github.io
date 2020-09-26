@@ -104,5 +104,24 @@
     
 }
 
+@media only screen and (max-width: 1025px){
 
+    .postContent{
+.screenshot {
+    width:80%;
+}
+    }
+}
 
+@media only screen and (max-width: 769px){
+    .singlePostWrapper {
+        display: grid;
+        /* There will be 3 columns, each 200px wide */
+        grid-template-columns: 1fr;
+    }
+    .postContent{
+.screenshot {
+    width:80%;
+}
+    }
+}

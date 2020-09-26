@@ -69,6 +69,7 @@ export const galleryQuery = graphql`
       allFile(
         limit: $limit
         skip: $skip
+        sort: {fields: mtime, order: ASC}
         filter:{
           relativeDirectory: {
             eq: "images/gallery"

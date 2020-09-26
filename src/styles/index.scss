@@ -312,9 +312,8 @@ html, body {
 .setupTable {
     padding-top: 2rem;
     display: grid;
-    width: 80%;
     margin:0 auto;
-    grid-template-columns: repeat(5,.2fr);
+    grid-template-columns: repeat(4,1fr);
     // border-top: 1px solid red;
     // border-right: 1px solid purple;
     text-align: center;
@@ -361,6 +360,16 @@ html, body {
 
     .sidebar{
         grid-template-rows: min-content min-content min-content min-content min-content;
+    }
+
+    .setupTable {
+        padding-top: 2rem;
+        display: grid;
+        margin:0 auto;
+        grid-template-columns: repeat(2,1fr);
+        // border-top: 1px solid red;
+        // border-right: 1px solid purple;
+        text-align: center;
     }
  }
 
