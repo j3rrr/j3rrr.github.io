@@ -28,6 +28,12 @@ $mainContentBackground: url(../images/progress/current.png);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  .icon-warcraftlogs {
+    &:before {
+      content: $icon-warcraftlogs; 
+    }
+  }
   
   .icon-hearthstone {
     &:before {
@@ -75,11 +81,11 @@ html, body {
     }
 }
 
-.dk{
+.death-knight{
     color:$dk;
     font-weight: 500;
 }
-.dh {
+.demon-hunter {
     color:$dh;
     font-weight: 500;
 }
@@ -313,10 +319,12 @@ html, body {
     padding-top: 2rem;
     display: grid;
     margin:0 auto;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,.15fr);
+    grid-auto-flow: column;
     // border-top: 1px solid red;
     // border-right: 1px solid purple;
     text-align: center;
+    width:80%
 }
 
 .setupTable > span {

@@ -6,7 +6,7 @@
 
 module.exports = {
 	siteMetadata: {
-		title: 'From Hero to Zero',
+		title: 'Zero',
 		guild: 'Zero',
 		realm: 'Aegwynn EU'
 	},

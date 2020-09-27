@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         
         <script src="https://wow.zamimg.com/widgets/power.js"></script>
-        {/* <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script> */}
+        <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true}</script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

@@ -9,6 +9,7 @@ import Sidebar from '../components/sidebar'
 //import layoutStyles from './layout.module.scss'
 
 const Layout = (props) => {
+    const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};
     return (
         
         // 

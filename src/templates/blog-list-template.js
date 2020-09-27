@@ -13,9 +13,7 @@ import { BiDetail } from 'react-icons/bi';
 
 export default class BlogList extends React.Component {
     render() {
-        const { limit, skip } = this.props.pageContext
-      console.log("limit:", limit)
-      console.log("skip:", skip)
+        
         const posts = this.props.data.allMarkdownRemark.edges
 
         const { currentPage, numPages } = this.props.pageContext

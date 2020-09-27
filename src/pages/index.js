@@ -32,10 +32,47 @@ const Home = () => {
 			}
 		}
 	`)
+
+	const title = [
+		"From Hero to Zero",
+		"Haiyaa",
+		"Komm Freddy, Bus bau'n!",
+		"Kukulu!",
+		"V-E-G-A-N",
+		"believe in unicorns..",
+		"Danke, Merkur!",
+		"Haidiiinaiii",
+		"Pipii?!",
+		"..hast du auch Bock auf'n Eis?",
+		"Jetzt wird gece-le-brated!",
+		"Flieg, Klein Wellensittich",
+		"Mayday, Mayday, Mayday",
+		"Zero isch stabil Junge!",
+		"Pandenie hin, Pandenie her",
+		"Tu des genießen",
+		"Kaaartoffelsalat!",
+		"mmmFREEDOM! doch nich!",
+		"Tank tot.",
+		"/pet",
+		"Hammer fett, Bombe krass!",
+		"AWASOOWABA",
+		"Zerrrrrroooo",
+		"Kockussnuss?",
+		"Sind wir hier in Malibu?",
+		"Ein schöner und sauberer Kill",
+		"Jawollinger!",
+		"Irgendeine Frau hat was gesagt",
+		"Du weißt schon was ich meine, ohoho!!",
+		"Mensch, Günnhardt..",
+		"Om Onfong..",
+		"Öke öke öke öke öke!"
+	]
+
+	const randomTitle = title[Math.floor(Math.random()*title.length)];
 	
     return (
 		<Layout>
-			<Head title="Home" />
+			<Head title={randomTitle} />
 			<div className="mainWrapper">
 				
 					{data.allMarkdownRemark.edges.map((edge) => {
