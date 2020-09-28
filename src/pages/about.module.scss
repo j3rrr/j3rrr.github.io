@@ -16,6 +16,7 @@
 }
 
 .aboutContent {   
+    text-align:justify;
     h2 { 
         padding-top: 2rem;
         color: $gold;
@@ -29,6 +30,9 @@
     ul {
         list-style: none;
         margin-bottom: 2rem;
+        li {
+            line-height: 1.8rem;
+        }
     }
     p:last-child {
         padding-bottom: 2rem;
@@ -36,11 +40,118 @@
 
     .fussnote {
         font-size: .75rem;
+        opacity: .7;
+        color:$itemPoor;
     }
 }
 
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+}
 
+.contact-title {
+    text-align: center;
+    grid-column: span 2;
+    //line-height: 1rem;
+    line-height: .5rem;
+    padding-top: .5rem;
+    color: $gold;
+}
 
+.contactBox::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-image: $battlenetLogo;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    z-index: 1;
+    opacity: .2;
+    
+}
 
+.contactBox {
+    text-align: center;
+    border: 1px solid rgba(0, 112, 222, .2);
+    border-radius: 13px;
+    position: relative;
+    padding-top:2.5rem;
+    padding-bottom: 2.5rem;
 
+    &.left {
+            margin-right:1rem;
+    }
+    &.right {
+        margin-left:1rem;
+    }
+    
+    h5 {
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    .contactId {
+        padding-bottom: 1rem;
+        font-weight: bold;
+        color:$gold;
+        z-index: 2;
+        position: relative;
+    }
+
+    .contactSubtitleGuild, 
+    .contactSubtitleRaid {
+        position: relative;
+        z-index: 2;
+        text-transform: uppercase;
+        font-size: .7rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        letter-spacing: .1rem;
+        font-weight: 600;
+        opacity: .8;
+    }
+
+    .contactSubtitleGuild {
+        color: $chatGuild;
+    }
+    .contactSubtitleRaid {
+        color: $chatInstance;
+    }    
+}
+
+.contactBox:hover {
+    background-color: rgba(0, 112, 222, .05);
+}
+
+@media only screen and (max-width: 769px){
+
+.contact {
+    grid-template-columns: 1fr;
+}
+
+.contactBox {
+    text-align: center;
+    border: 1px solid rgba(0, 112, 222, .2);;
+    border-radius: 13px;
+    position: relative;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+
+    &.left {
+            margin-right:0;
+            margin-bottom:1rem;
+    }
+    &.right {
+        margin-left:0;
+    }
+}
+
+}
 

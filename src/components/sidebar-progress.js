@@ -11,7 +11,7 @@ const SidebarProgress = () => {
         <div className={sidebarProgStyles.progressContainer}>
              <AniLink
                 fade
-                to="/progress-nyalotha"
+                to="/progress-castle-nathria"
                 rel="nyalothaprogress"
             >                
                 <div className={sidebarProgStyles.progressContainerNathria}>

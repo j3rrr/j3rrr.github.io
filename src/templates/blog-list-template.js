@@ -5,6 +5,7 @@ import Image from '../components/Image'
 import Layout from "../components/layout"
 import Head from '../components/head'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 //import indexStyles from '../pages/index.module.scss'
 import blogListStyles from './blog-list-template.module.scss'
 import { BsCardImage } from 'react-icons/bs';
@@ -12,8 +13,7 @@ import { BiDetail } from 'react-icons/bi';
 
 
 export default class BlogList extends React.Component {
-    render() {
-        
+    render() {        
         const posts = this.props.data.allMarkdownRemark.edges
 
         const { currentPage, numPages } = this.props.pageContext
@@ -38,10 +38,10 @@ export default class BlogList extends React.Component {
                         //         </Link>
                         //     </div>
                         // )
-                
+                        
                         return (
                             
-                            <div className={blogListStyles.cards}>
+                            <div className={blogListStyles.cards} key={node.id}>
                             <figure className={blogListStyles.evocImg}>  
                                 {node.frontmatter.screenshot && 
                                     <Image
@@ -51,9 +51,11 @@ export default class BlogList extends React.Component {
                                 } 
                                 <figcaption>
                                     <div className={`${blogListStyles.overlay} ${blogListStyles.icons}`}>
+                                    
                                         <a className={blogListStyles.icon} href={node.frontmatter.screenshot.childImageSharp.original.src} target="_blank" rel="noreferrer">                                       
-                                            <BsCardImage />                                        
+                                            <BsCardImage />
                                         </a>
+                                    
                                         <AniLink fade className={blogListStyles.icon} to={`/blog/${node.fields.slug}`}>
                                             <BiDetail />
                                         </AniLink>
@@ -70,7 +72,7 @@ export default class BlogList extends React.Component {
                         )
                     })}
                     </div>
-                    <div className={blogListStyles.pagination}>
+                    <div className={blogListStyles.pagination} key="pagination">
                 
                         {!isFirst && (
                             <AniLink
@@ -110,6 +112,7 @@ export const blogListQuery = graphql`
                     fields {
                         slug
                     }
+                    id
                     frontmatter {
                         title
                         date(formatString: "DD.MM.YYYY")

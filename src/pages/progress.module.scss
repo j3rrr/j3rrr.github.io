@@ -75,6 +75,21 @@
   .timeline li:last-child {
     padding-bottom: 2em
 }
+
+.mythic, .heroic {
+  font-size: .9rem;
+  font-weight: bolder;
+  padding-left:.3rem;
+  padding-right:.3rem;
+}
+
+.mythic {  
+  color: $itemSuperior;
+}
+
+.heroic {
+  color: $itemRare;
+}
   
   .timeline .hexa{
     width: 16px;
@@ -125,6 +140,10 @@
     padding: 6px 10px;
     text-align: left;
     border-radius: 5px;
+    text-decoration: none;
+    a {
+      color:$offwhite;
+    }
   }
   
   .directionL .flag:after,
@@ -292,6 +311,7 @@
     .directionR .desc {
       margin: 1em 0 0 0.75em;
     }
+
   }
   
   @media(min-width: 992px){

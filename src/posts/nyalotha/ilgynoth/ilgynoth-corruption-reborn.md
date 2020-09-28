@@ -34,10 +34,10 @@ raidslug: 'nyalotha-the-waking-city'
   <span class="warlock">Kazyra</span>
   <span class="warlock">Rhiin</span>
 </div> -->
-1. [Bedeckung des Himmelsdonners](https://de.wowhead.com/item=31015){class="itemEpic" target="_blank"}
+<!-- 1. [Bedeckung des Himmelsdonners](https://de.wowhead.com/item=31015){class="itemEpic" target="_blank"}
 2. [Lightbringer Faceguard](https://www.wowhead.com/item=30987){class="itemEpic" target="_blank"}
 3. [Bedeckung des Himmelsdonners](https://de.wowhead.com/item=31015){class="itemEpic" target="_blank"}
-4. [Lightbringer Faceguard](https://www.wowhead.com/item=30987){class="itemEpic" target="_blank"}
+4. [Lightbringer Faceguard](https://www.wowhead.com/item=30987){class="itemEpic" target="_blank"} -->
 
 
 

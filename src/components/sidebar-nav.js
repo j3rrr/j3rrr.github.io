@@ -38,6 +38,16 @@ const SidebarNav = () => {
                         Recruit
                     </AniLink>
                     </li>
+                    <li key="gallery">
+                    <AniLink
+                        fade
+                        activeClassName={sidebarNavStyles.active}
+                        to="/gallery/1"
+                        rel="home"
+                    >
+                        Zero Life
+                    </AniLink>
+                    </li>
                     <li key="posts">
                     <AniLink
                         fade

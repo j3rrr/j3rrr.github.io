@@ -284,8 +284,36 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
 
   .galContainer {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,auto);
-        height:auto;
+  }
+
+  .galContainer a:first-child {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+  
+  /**
+    every 3rd item takes up 2 blocks horizontally (2 x 1)
+  **/
+  .galContainer a:nth-child(7n) {
+    grid-row: span 1;
+  }
+  
+  /**
+    every 4th and 7th item takes up only 1 block (1 x 1),
+    to overwrite the previous 3n rule
+  **/
+  .galContainer a:nth-child(4n),
+  .galContainer a:nth-child(3n) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  /**
+    every 5th item takes up 2 blocks vertically (1 x 2),
+    also every 15th block will be a big one (2 x 2)
+  **/
+  .galContainer a:nth-child(5n) {
+    grid-column: span 1;
   }
   .gallerypagination {
     grid-column-start: 1; 

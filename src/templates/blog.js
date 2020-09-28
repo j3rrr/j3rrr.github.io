@@ -6,27 +6,70 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from '../components/layout'
 import Head from '../components/head'
 import Image from '../components/Image'
-
+import { SRLWrapper } from "simple-react-lightbox";
 import blogStyles from './blog.module.scss'
 
 const progressData = require('../data/progress.json')
 
 export default function Blog ({data}) {
-    //difficulty aus frontmatter
-    const diffic = data.postData.frontmatter.difficulty
-    const raidslug = data.postData.frontmatter.raidslug
-    const bossSlug = data.postData.fields.slug
-    const kills = progressData[raidslug][diffic]
 
-    //const killsMapped = kills.map()
-    function matchesSlug(boss) {
-      if(boss === bossSlug){
-        return true
-      }
+  const options = {
+    settings: {
+      autoplaySpeed: 4000,
+      
+      lightboxTransitionSpeed: 0.6,
+      lightboxTransitionTimingFunction: 'linear',
+      slideAnimationType: 'fade',
+      slideSpringValues: [300, 200],
+      slideTransitionSpeed: 1,
+      slideTransitionTimingFunction: 'linear'
+    },
+    buttons: {
+      iconColor: "rgba(211, 186, 134, 0.8)",
+      showAutoplayButton: false,
+      showCloseButton: true,
+      showDownloadButton: true,
+      showFullscreenButton: true,
+      showNextButton: false,
+      showPrevButton: false,
+      showThumbnailsButton: false,
+    },
+    thumbnails: {
+      showThumbnails: false,
+      thumbnailsAlignment: 'center',
+      thumbnailsContainerBackgroundColor: 'transparent',
+      thumbnailsContainerPadding: '10px',
+      thumbnailsGap: '5px',
+      thumbnailsOpacity: 0.3,
+      thumbnailsPosition: 'bottom',
+      thumbnailsSize: ['100px', '80px']
+    },
+    progressBar: {
+      backgroundColor: '#000000',
+      fillColor: '#D3BA86',
+      height: '3px',
+      showProgressBar: true
+    },
+    caption: {
+      showCaption: false
     }
+  };
 
-    const thisKill = kills.find(({boss}) => matchesSlug(boss) )
-    const thisRoster = thisKill.roster
+  //difficulty aus frontmatter
+  const diffic = data.postData.frontmatter.difficulty
+  const raidslug = data.postData.frontmatter.raidslug
+  const bossSlug = data.postData.fields.slug
+  const kills = progressData[raidslug][diffic]
+
+  //const killsMapped = kills.map()
+  function matchesSlug(boss) {
+    if(boss === bossSlug){
+      return true
+    }
+  }
+
+  const thisKill = kills.find(({boss}) => matchesSlug(boss) )
+  const thisRoster = thisKill.roster
 
     // console.log('(=============================)')
     // console.log(thisKill.roster)
@@ -41,7 +84,7 @@ export default function Blog ({data}) {
    // const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};
     
    // FÜR SORTIERUNG
-   const collator = new Intl.Collator('en'); // or whatever language
+ // const collator = new Intl.Collator('en'); // or whatever language
     //console.log(data)
   return (
     <Layout><>          
@@ -51,16 +94,17 @@ export default function Blog ({data}) {
 
           <h1>{data.postData.frontmatter.title}</h1>
           <h5>{data.postData.frontmatter.progress}</h5>
-
+          <SRLWrapper options={options}>
           {data.postData.frontmatter.screenshot && 
-            <a href={data.postData.frontmatter.screenshot.childImageSharp.original.src} target="_blank" rel="noreferrer">
+            <a href={data.postData.frontmatter.screenshot.childImageSharp.original.src} target="_blank" rel="noreferrer" data-attribute="SRL">
               <Image
                 src={data.postData.frontmatter.screenshot.relativePath}     
                 className={blogStyles.screenshot}                                   
               />  
             </a>                                  
           }
-          <a href="#" data-wowhead="item=2828">hai</a>
+          </SRLWrapper>
+          
           
           <div class="setupTable">
             {thisRoster.map(({ character }) => {
@@ -89,7 +133,8 @@ export default function Blog ({data}) {
           <div dangerouslySetInnerHTML={{ __html: data.postData.html }}/>
 
         </div>    
-        <AniLink fade className={blogStyles.homeLink} to="/posts/1"><span className="icon-hearthstone"> </span></AniLink>                     
+        {/* <AniLink fade className={blogStyles.homeLink} to="/posts/1"><span className="icon-hearthstone"> </span></AniLink> */}
+        <AniLink fade className={blogStyles.homeLink} to={`/progress-${data.postData.frontmatter.raidslug}`}><span className="icon-hearthstone"> </span></AniLink>
       </div>
     </></Layout>
   )

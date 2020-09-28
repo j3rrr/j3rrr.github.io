@@ -54,7 +54,7 @@ export default class Gallery extends React.Component {
         // const isLastGal = currentGalPage === numGalPages
         // const prevGalPage = currentGalPage - 1 === 1 ? `/gallery/1` : `/gallery/${currentGalPage - 1}` 
         // const nextGalPage = `/gallery/${currentGalPage + 1}` 
-        var counter = 0
+        //var counter = 0
 
         return (
             <Layout>
@@ -63,15 +63,15 @@ export default class Gallery extends React.Component {
                 <div className={galleryStyles.galContainer}>
                
                   {images.map(({ node }) => {                    
-                    counter = counter + 1
-                    var cssclass = 'img'+counter;
-                    var bgimage = {
-                      backgroundImage: `url(${node.childImageSharp.fluid.src})`,
-                    }
-                    console.log(cssclass)
+                    //counter = counter + 1
+                    // var cssclass = 'img'+counter;
+                    // var bgimage = {
+                    //   backgroundImage: `url(${node.childImageSharp.fluid.src})`,
+                    // }
+                    
                     return (
                      
-                      <a href={node.childImageSharp.original.src} data-attribute="SRL">
+                      <a href={node.childImageSharp.original.src} data-attribute="SRL" key={node.id}>
                         <Img fluid={node.childImageSharp.fluid} alt={node.name}></Img>
                       </a>
 
@@ -129,6 +129,7 @@ export const galleryQuery = graphql`
             relativePath
             base
             name
+            id
             childImageSharp {
                 original{src}
                 fluid(maxWidth: 1920) {

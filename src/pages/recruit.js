@@ -15,21 +15,37 @@ const RecruitPage = () => {
 				
 				<h2>Wen rekrutieren wir?</h2>
 				<p>
-					Generell ist bei uns jeder willkommen, der sich aktiv in das Gildenleben (Mythic+, PvP, Questen, etc) einbringen möchte und Wert auf eine erwachsene, familiäre Community legt.<br></br>
-					<p>
+					Generell ist bei uns jeder willkommen, der sich aktiv in das Gildenleben (Mythic+, PvP, Questen, etc) einbringen möchte und Wert auf eine erwachsene, familiäre Community legt.<br></br><br></br>
+					
 						Zusätzlich zum Mainraid, bieten wir einmal pro Woche einen zusätzlichen Raidtag an, an dem jeder teilnehmen kann. Ohne jegliche Verpflichtungen oder Vorraussetzungen möchten wir damit jedem Gildenmitglied die Möglichkeit geben, mindestens den heroischen Content zu erleben. <span className={aboutStyles.fussnote}>Die Charaktere sollten natürlich dem jeweiligen Content entsprechend ausgerüstet sein</span>
-						</p>
-					<p>Für Spieler, die sich unserem Mythic-Raid anschließen wollen, gelten zusätzliche Vorraussetzungen.</p>
+						<br></br><br></br>
+				Für Spieler, die sich unserem Mythic-Raid anschließen wollen, gelten zusätzliche Vorraussetzungen.
 				</p>
 
 				<h2>Kontakt</h2>
-				<p>Egal, ob als einfaches Gildenmitglied, oder als Raider - sollten wir dein Interesse geweckt haben und du möchtest mit uns Kontakt aufnehmen, sind dies deine Ansprechpartner
+				<p>
+					Egal, ob als einfaches Gildenmitglied, oder als Raider - sollten wir dein Interesse geweckt haben und du möchtest mit uns Kontakt aufnehmen, sind dies deine Ansprechpartner
+				</p>
+				<div className={aboutStyles.contact}>
+					{/* <div className={aboutStyles.contactTitle}>
+						<h4>Battle.Net</h4>
+					</div> */}
+					<div className={`${aboutStyles.contactBox} ${aboutStyles.left}`}>
+						<div className={aboutStyles.contactSubtitleGuild}>Gildenleiterin</div>
+						<div className={aboutStyles.contactId}>Rala#2964</div>
+					</div>
+					<div className={`${aboutStyles.contactBox} ${aboutStyles.right}`}>
+						<div className={aboutStyles.contactSubtitleRaid}>Raidleiter</div>
+						<div className={aboutStyles.contactId}>Bambule#21598</div>
+					</div>
+				</div>
+				{/* 
 				<h4>Battle.Net</h4>
 				<ul>
 					<li>Gildenleiterin: Rala#2964</li>
 					<li>Raidleiter: Bambule#21598</li>
-				</ul>
-				</p>
+				</ul> */}
+				
 
 				<h2>Gilde</h2>
 				<p>
@@ -38,12 +54,12 @@ const RecruitPage = () => {
 				</p>
 
 				<h2>Mythic Raidkader</h2>				
-				<p>
-					<h4>Raidzeiten</h4>
+				<h3>Raidzeiten</h3>
 					<ul>
 						<li>Mittwoch: 19:15 bis 22:30 Uhr</li>
 						<li>Sonntag: 19:15 bis 22:30 Uhr</li>
 					</ul>
+				<p>					
 					Wir schätzen unsere familiäre und trotzdem progress-orientierte Raidatmosphäre sehr. Um diese auch weiterhin aufrecht zu erhalten, legen wir viel Wert auf ein respektvolles und faires Miteinander.<br></br>
 					Jeder, der sich dazu entscheidet am Raid teilzunehmen, soll auch die Möglichkeit dazu bekommen.<br></br>
 					Fehler werden bei uns nicht unmittelbar bestraft und Fragen bei Unsicherheiten sind absolut erwünscht!<br></br>
