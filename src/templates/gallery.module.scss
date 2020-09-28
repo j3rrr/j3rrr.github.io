@@ -61,23 +61,117 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
 
 .galContainer {
   display: grid;
-  grid-gap: 0;
-  //grid-column-gap: 5px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto min-content;
+  grid-gap: 10px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 1rem 1rem 1rem 1rem;
+  grid-auto-flow: dense; 
+}
+
+.galContainer:before {
+  content: '';
+  height:0;
+  width:100%;
+  padding-bottom: 100%;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1
+}
+
+
+
+.galContainer a:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+/**
+  every 3rd item takes up 2 blocks horizontally (2 x 1)
+**/
+.galContainer a:nth-child(7n) {
+  grid-row: span 2;
+}
+
+/**
+  every 4th and 7th item takes up only 1 block (1 x 1),
+  to overwrite the previous 3n rule
+**/
+.galContainer a:nth-child(4n),
+.galContainer a:nth-child(3n) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/**
+  every 5th item takes up 2 blocks vertically (1 x 2),
+  also every 15th block will be a big one (2 x 2)
+**/
+.galContainer a:nth-child(5n) {
+  grid-column: span 2;
+}
+// .galContainer a:nth-child(9n) {
+//   grid-column: span 2;
+//   grid-row: span 2;
+// }
+
+
+
+
+// .galContainer {
+//   padding: 1rem 1rem 0 1rem;
+//   display: grid;
+//   grid-gap: .5rem;
+//   //grid-column-gap: 5px;
+//   grid-template-columns: repeat(4, 1fr);
+//   grid-template-rows: auto auto auto min-content;
   
-  //grid-template-rows: repeat(auto, 400px);
-  height:100%;
-  padding: 0;
-  margin:0;
-  margin-top:0;
+//   //grid-template-rows: repeat(auto, 400px);
+//   height:100%;
+//   margin:0;
+//   margin-top:0;
+  
+//   grid-template-areas: 
+//     "img1 img1 img2 img3"
+//     "img4 img5 img6 img6"
+//     "img4 img7 img7 img8"
+//   ;
+// }
+
+// .img1 {
+//   grid-area: img1;
+// }
+// .img2 {
+//   grid-area: img2;
+// }
+// .img3 {
+//   grid-area: img3;
+// }
+// .img4 {
+//   grid-area: img4;
+// }
+// .img5 {
+//   grid-area: img5;
+// }
+// .img6 {
+//   grid-area: img6;
+// }
+// .img7 {
+//   grid-area: img7;
+// }
+// .img8 {
+//   grid-area: img8;
+// }
+
+.galContainer > a {
+  object-fit: fill;
 }
 
 .galContainer > a > div {
     width: 100%;
     height: 100%;
+    border-radius: 13px;
     object-fit: cover;
-    display:flex;
+
+    border: 1px solid $bg-dark;
 
 
     transition:all .3s ease-in-out;
@@ -85,14 +179,18 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
     -moz-transition:all .3s ease-in-out;
     -ms-transition:all .3s ease-in-out;
     -o-transition:all .3s ease-in-out;
+
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.35), 0 0 6px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.35), 0 0 6px rgba(0,0,0,0.20);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.35), 0 0 6px rgba(0,0,0,0.20);
     
 }
-.galContainer > a > div:hover{
-  transform:scale(1.05);
-    -webkit-transform:scale(1.05);
-    -moz-transform:scale(1.05);
-    -ms-transform:scale(1.05);
-    -o-transform:scale(1.05);
+.galContainer > a > div:hover {
+   transform:scale(1.02);
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
     -webkit-box-shadow: 0 10px 6px rgba(0,0,0,0.35), 0 0 26px rgba(0,0,0,0.20);
     -moz-box-shadow: 0 10px 6px rgba(0,0,0,0.35), 0 0 26px rgba(0,0,0,0.20);
     box-shadow: 0 10px 6px rgba(0,0,0,0.35), 0 0 26px rgba(0,0,0,0.20);
@@ -129,6 +227,7 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
       overflow: hidden;
       border: none;
       background: none;
+      bottom: .8rem;
   }
   .gallerybtnMove {
       position: relative;
@@ -178,6 +277,8 @@ $ease_out: cubic-bezier(0.23, 1, 0.32, 1);
       }
   }
 }
+
+
 
 @media only screen and (max-width: 769px){
 

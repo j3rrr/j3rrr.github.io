@@ -38,8 +38,10 @@ export default function Blog ({data}) {
     //     console.log(kill[i])
     //     console.log('(=============================)')
     // };
-    const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};
-    const collator = new Intl.Collator('en'); // or whatever language
+   // const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};
+    
+   // FÜR SORTIERUNG
+   const collator = new Intl.Collator('en'); // or whatever language
     //console.log(data)
   return (
     <Layout><>          
