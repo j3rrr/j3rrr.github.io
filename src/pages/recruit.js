@@ -17,14 +17,16 @@ const RecruitPage = () => {
 				<p>
 					Generell ist bei uns jeder willkommen, der sich aktiv in das Gildenleben (Mythic+, PvP, Questen, etc) einbringen möchte und Wert auf eine erwachsene, familiäre Community legt.<br></br><br></br>
 					
-						Zusätzlich zum Mainraid, bieten wir einmal pro Woche einen zusätzlichen Raidtag an, an dem jeder teilnehmen kann. Ohne jegliche Verpflichtungen oder Vorraussetzungen möchten wir damit jedem Gildenmitglied die Möglichkeit geben, mindestens den heroischen Content zu erleben. <span className={aboutStyles.fussnote}>Die Charaktere sollten natürlich dem jeweiligen Content entsprechend ausgerüstet sein</span>
-						<br></br><br></br>
-				Für Spieler, die sich unserem Mythic-Raid anschließen wollen, gelten zusätzliche Vorraussetzungen.
+					Neben unserem Mainraid, bieten wir weitere Möglichkeiten, regelmäßg etwas mit der gesamten Gilde zu unternehmen.<br></br>  
+					Dazu gehören zum Beispiel spontane M+ Gruppen, Erfolgsruns und unser wöchtentlicher HC-Raid, an dem jeder freiwillig teilnehmen kann. Hierfür setzen wir nur vorraus, dass die Charaktere dem jeweiligen Content entsprechen ausgerüstet sind.
+					
+					<br></br><br></br>
+					Für Spieler, die sich unserem Mythic-Raid anschließen wollen, gelten zusätzliche Vorraussetzungen.
 				</p>
 
 				<h2>Kontakt</h2>
 				<p>
-					Egal, ob als einfaches Gildenmitglied, oder als Raider - sollten wir dein Interesse geweckt haben und du möchtest mit uns Kontakt aufnehmen, sind dies deine Ansprechpartner
+					Egal, ob als einfaches Gildenmitglied oder als Raider - sollten wir dein Interesse geweckt haben und du möchtest mit uns Kontakt aufnehmen, sind dies deine Ansprechpartner
 				</p>
 				<div className={aboutStyles.contact}>
 					{/* <div className={aboutStyles.contactTitle}>

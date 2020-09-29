@@ -21,7 +21,7 @@ const NotFound = () => {
                     <Image 
                         src="images/404.svg"
                     />
-                    <AniLink className={fourohfour.backlink} to="/"><span className="icon-hearthstone"> </span></AniLink>
+                    <AniLink fade className={fourohfour.backlink} to="/"><span className="icon-hearthstone"> </span></AniLink>
                     
                     </div>
                     

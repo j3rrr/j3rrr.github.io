@@ -67,8 +67,10 @@ const Home = () => {
 		"Om Onfong..",
 		"Öke öke öke öke öke!",
 		"geilo!",
-		"angeltime",
-		"sach ma wuat..."
+		"Angeltime! *_*",
+		"sach ma wuat...",
+		"Der Kaffee ist fertig!",
+		"Ja na klaaar, HÄÄÄ Fugbaum!"
 	]
 
 	const randomTitle = title[Math.floor(Math.random()*title.length)];

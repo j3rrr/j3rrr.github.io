@@ -15,8 +15,14 @@
     padding: 0;
 }
 
+a.about-image {
+    height:100%;
+    width:100%;
+}
+
 .aboutContent {   
     text-align:justify;
+    letter-spacing: .05rem;
     h2 { 
         padding-top: 2rem;
         color: $gold;
@@ -100,6 +106,7 @@
     .contactId {
         padding-bottom: 1rem;
         font-weight: bold;
+        font-size: 1.1rem;
         color:$gold;
         z-index: 2;
         position: relative;
@@ -110,7 +117,7 @@
         position: relative;
         z-index: 2;
         text-transform: uppercase;
-        font-size: .7rem;
+        font-size: .8rem;
         padding-top:1rem;
         padding-bottom:1rem;
         letter-spacing: .1rem;
@@ -119,10 +126,12 @@
     }
 
     .contactSubtitleGuild {
-        color: $chatGuild;
+        font-weight: 300;
+        color: $mint;
     }
     .contactSubtitleRaid {
-        color: $chatInstance;
+        color: $chatInstanceLeader;
+        font-weight: 600;
     }    
 }
 
