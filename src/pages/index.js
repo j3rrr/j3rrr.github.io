@@ -65,7 +65,10 @@ const Home = () => {
 		"Du weißt schon was ich meine, ohoho!!",
 		"Mensch, Günnhardt..",
 		"Om Onfong..",
-		"Öke öke öke öke öke!"
+		"Öke öke öke öke öke!",
+		"geilo!",
+		"angeltime",
+		"sach ma wuat..."
 	]
 
 	const randomTitle = title[Math.floor(Math.random()*title.length)];
