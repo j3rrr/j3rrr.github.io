@@ -28,6 +28,7 @@
     }
     
     button {
+        font-family: 'Nunito', sans-serif;
         padding: 15px 35px;
         margin: 50px 10px;
         border: 2px solid $gold;
@@ -42,6 +43,10 @@
         -webkit-transition:  all 0.8s;
         -moz-transition:  all 0.8s;
         transition:  all 0.8s;
+        
+        span {
+            line-height: 2.5rem;
+        }
 
         p {
             margin:0;

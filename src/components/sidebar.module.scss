@@ -1,319 +1,321 @@
 @import "../styles/variables";
 
 .active {
-    color:green;
+  color: green;
 }
 
 .inactive {
-    color:red;
+  color: red;
 }
 
 .logo {
-    position: relative;
-    width: 60%;
-    display: block;
-    margin: 50px auto 30px;
+  position: relative;
+  width: 60%;
+  display: block;
+  margin: 50px auto 30px;
 }
 
 .allianceLogo {
-    margin-top:2rem;
-    font-size: 13rem;
-    color:$offwhite;
-    opacity: .4;
-    text-align: center;
+  margin-top: 2rem;
+  font-size: 13rem;
+  color: $offwhite;
+  opacity: 0.4;
+  text-align: center;
 }
 
 .title {
-    padding-top: 0;
-    //padding-left: 15px;
-    color: $offwhite;
-    opacity: .8;
-    font-size: .7rem;
-    font-weight:600;
-    letter-spacing: .1rem;
-    line-height: 1rem;
-    width:100%;
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
+  padding-top: 0;
+  //padding-left: 15px;
+  color: $offwhite;
+  opacity: 0.8;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
 }
 
 .recruitList {
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    padding: 0;
-    margin-top: 10px;
-    padding-left: 15px;
-    line-height: 1.1rem;
-    position: relative;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 15px;
+  line-height: 1.1rem;
+  position: relative;
 }
-.recruitList::before{    
-        position: absolute;
-        font-family: 'zero';
-        margin-top:2rem;
-        font-size: 13rem;
-        color:$offwhite;
-        opacity: .04;
-        padding-left:45px;
-        padding-top: 70px;
-        content: "\e900";
+.recruitList::before {
+  position: absolute;
+  font-family: "zero";
+  margin-top: 2rem;
+  font-size: 13rem;
+  color: $offwhite;
+  opacity: 0.04;
+  padding-left: 45px;
+  padding-top: 70px;
+  content: "\e900";
 }
 
 .recruitList > span:nth-child(odd) {
-    //background-color: green;
-    padding-right: 10px;
-    
+  //background-color: green;
+  padding-right: 10px;
 }
 
 .recruitList > span:nth-child(even) {
-    //background-color: red;
-    padding-right: 20px;
+  //background-color: red;
+  padding-right: 20px;
 }
 
 .specNo {
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    opacity: 0.3;
-    display:inline-block;
-    margin-right: 5px;
-    img {
-        padding-right: 5px;
-        width: 16px;
-        height: 16px;
-    }
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  opacity: 0.3;
+  display: inline-block;
+  margin-right: 5px;
+  img {
+    padding-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .specYes {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    display:inline-block;
-    margin-right: 5px;
-    img {
-        padding-right: 5px;
-        width: 16px;
-        height: 16px;
-    }
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  display: inline-block;
+  margin-right: 5px;
+  img {
+    padding-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .dk {
-    background-image: url(../images/class/deathknight.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $dk;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/deathknight.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $dk;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .dh {
-    background-image: url(../images/class/demonhunter.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $dh;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/demonhunter.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $dh;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .druid {
-    background-image: url(../images/class/druid.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $druid;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/druid.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $druid;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .hunter {
-    background-image: url(../images/class/hunter.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $hunter;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/hunter.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $hunter;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .mage {
-    background-image: url(../images/class/mage.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $mage;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/mage.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $mage;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .monk {
-    background-image: url(../images/class/monk.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $monk;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/monk.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $monk;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .paladin {
-    background-image: url(../images/class/paladin.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $paladin;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/paladin.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $paladin;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .priest {
-    background-image: url(../images/class/priest.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $priest;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/priest.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $priest;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .rogue {
-    background-image: url(../images/class/rogue.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $rogue;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/rogue.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $rogue;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .shaman {
-    background-image: url(../images/class/shaman.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $shaman;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/shaman.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $shaman;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .warlock {
-    background-image: url(../images/class/warlock.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $warlock;
-    text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+  background-image: url(../images/class/warlock.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $warlock;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
 }
 
 .warrior {
-    background-image: url(../images/class/warrior.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 23px;
-    line-height: 20px;
-    color: $warrior;
+  background-image: url(../images/class/warrior.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 23px;
+  line-height: 20px;
+  color: $warrior;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 16px;
+  height: 16px;
+}
+
+.recruit {
+  min-height: 230px;
+}
+
+a {
+  text-decoration: none;
+  .rankwidget {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid $gold;
+    background-color: $bg-dark;
+    text-align: center;
+    width: 60%;
+    line-height: 1rem;
+    display: block;
     text-transform: uppercase;
-    font-size: .7rem;
-    width:16px;
-    height: 16px;
+    top: 0;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .realmname {
+      margin-top: 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      color: $offwhite;
+    }
+
+    .subtitle {
+      line-height: 1rem;
+      font-size: 0.6rem;
+      color: $itemPoor;
+    }
+
+    .realmrank {
+      line-height: 3rem;
+      font-weight: 800;
+      font-size: 2rem;
+      color: $gold;
+    }
+
+    .progression {
+      color: $gold;
+      line-height: 1rem;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
-
-a{
-    text-decoration: none;
-    .rankwidget {
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border:1px solid $gold;
-        background-color: $bg-dark;
-        text-align: center;
-        width: 60%;
-        line-height: 1rem;
-        display:block;
-        text-transform: uppercase;
-        
-        p {
-            margin:0;
-            padding:0;
-        }
-
-        .realmname{
-            margin-top: 1rem;
-            line-height: 1.5rem;
-            font-weight: 600;    
-            color:$offwhite; 
-        }
-
-        .subtitle {
-            line-height: 1rem;
-            font-size: .6rem;         
-            color: $itemPoor;   
-        }
-
-        .realmrank {
-            line-height: 3rem;
-            font-weight: 800;
-            font-size: 2rem;
-            color:$gold;
-        }   
-
-        .progression {
-            color:$gold; 
-            line-height: 1rem;
-            font-size: .8rem;
-            margin-bottom: 1rem;
-        }
-    }
-}
-
-@media only screen and (max-width: 769px){
-
-    .recruitList {
-        display: grid;
-        grid-template-columns: .5fr .3fr; 
-    }
-    .recruitList::before{  
-        padding-left:130px;
-        padding-top: 70px;
-    }
-    .logo {
-        position: relative;
-        width: 40%;
-        display: block;
-        margin: 50px auto 20px;
-    }
+@media only screen and (max-width: 769px) {
+  .recruitList {
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr;
+  }
+  .recruitList::before {
+    padding-left: 130px;
+    padding-top: 70px;
+  }
+  .logo {
+    position: relative;
+    width: 40%;
+    display: block;
+    margin: 50px auto 20px;
+  }
 }

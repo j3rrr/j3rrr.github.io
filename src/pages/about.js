@@ -69,7 +69,7 @@ const AboutPage = () => {
 					
 				</p>
 				<p>
-					Unsere gemeinsame Zeit verbringen wir mittlerweile aber nicht mehr nur in World of Warcraft und anderen Spielen, sondern auch im Real-Life miteinander. Seit unserem ersten gemeinsamen Besuch der GamesCom 2018, ist dieses Gildentreffen im Sommer, genauso wie unser Weihnachtsmarkt-Raid im Winter, feste Rituale geworden. 
+					Unsere gemeinsame Zeit verbringen wir mittlerweile aber nicht mehr nur in World of Warcraft und anderen Spielen, sondern auch im Real-Life miteinander. Seit unserem ersten gemeinsamen Besuch der GamesCom 2018, sind dieses Gildentreffen im Sommer, genauso wie unser Weihnachtsmarkt-Raid im Winter, feste Rituale geworden. 
 				</p>
 				{/* <SRLWrapper options={options}> 
 					<a href="#" className={aboutStyles.aboutImage} target="_blank" rel="noreferrer" data-attribute="SRL" style={bgimage}></a>

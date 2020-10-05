@@ -58,8 +58,9 @@ export default function Blog ({data}) {
   //difficulty aus frontmatter
   const diffic = data.postData.frontmatter.difficulty
   const raidslug = data.postData.frontmatter.raidslug
-  const bossSlug = data.postData.fields.slug
+  const bossSlug = data.postData.fields.slug  
   const kills = progressData[raidslug][diffic]
+  var dummy = false
 
   //const killsMapped = kills.map()
   function matchesSlug(boss) {
@@ -68,8 +69,17 @@ export default function Blog ({data}) {
     }
   }
 
-  const thisKill = kills.find(({boss}) => matchesSlug(boss) )
-  const thisRoster = thisKill.roster
+  var thisRoster = []
+
+  if(raidslug === "dummy"){
+    dummy = true
+  }
+
+  if (raidslug !== "dummy") {
+    var thisKill = kills.find(({boss}) => matchesSlug(boss) )
+    thisRoster = thisKill.roster
+  } 
+  
 
     // console.log('(=============================)')
     // console.log(thisKill.roster)
@@ -130,11 +140,17 @@ export default function Blog ({data}) {
               .map(({playerClass, name, charName}) => (<span key={name} className={playerClass}>{charName}</span>))
             } */}
           </div>
+          
           <div dangerouslySetInnerHTML={{ __html: data.postData.html }}/>
 
         </div>    
         {/* <AniLink fade className={blogStyles.homeLink} to="/posts/1"><span className="icon-hearthstone"> </span></AniLink> */}
-        <AniLink fade className={blogStyles.homeLink} to={`/progress-${data.postData.frontmatter.raidslug}`}><span className="icon-hearthstone"> </span></AniLink>
+        {!dummy &&
+          <AniLink fade className={blogStyles.homeLink} to={`/progress-${data.postData.frontmatter.raidslug}`}><span className="icon-hearthstone"> </span></AniLink>
+        }
+        {dummy && 
+          <AniLink fade className={blogStyles.homeLink} to="/"><span className="icon-hearthstone"> </span></AniLink>
+        }
       </div>
     </></Layout>
   )

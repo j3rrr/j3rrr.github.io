@@ -1,166 +1,160 @@
 @import "../styles/variables";
 
-
-
 .aboutWrapper {
-    display: grid;
-    /* There will be 3 columns, each 200px wide */
-    grid-template-columns: .65fr;
-    /* There will be 2 rows, each 250px high */
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-content: center;
-    
-    height: 100%;
-    padding: 0;
+  display: grid;
+  /* There will be 3 columns, each 200px wide */
+  grid-template-columns: 0.65fr;
+  /* There will be 2 rows, each 250px high */
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-content: center;
+
+  height: 100%;
+  padding: 0;
 }
 
 a.about-image {
-    height:100%;
-    width:100%;
+  height: 100%;
+  width: 100%;
 }
 
-.aboutContent {   
-    text-align:justify;
-    letter-spacing: .05rem;
-    h2 { 
-        padding-top: 2rem;
-        color: $gold;
-    }
+.aboutContent {
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  h2 {
+    padding-top: 2rem;
+    color: $gold;
+  }
 
-    p {
-        font-size: 1.1rem;
-        line-height: 2.2rem;
-        font-weight: 300;
+  p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    li {
+      line-height: 1.8rem;
     }
-    ul {
-        list-style: none;
-        margin-bottom: 2rem;
-        li {
-            line-height: 1.8rem;
-        }
-    }
-    p:last-child {
-        padding-bottom: 2rem;
-    }
+  }
+  p:last-child {
+    padding-bottom: 2rem;
+  }
 
-    .fussnote {
-        font-size: .75rem;
-        opacity: .7;
-        color:$itemPoor;
-    }
+  .fussnote {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    color: $itemPoor;
+  }
 }
 
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 3rem;
 }
 
 .contact-title {
-    text-align: center;
-    grid-column: span 2;
-    //line-height: 1rem;
-    line-height: .5rem;
-    padding-top: .5rem;
-    color: $gold;
+  text-align: center;
+  grid-column: span 2;
+  //line-height: 1rem;
+  line-height: 0.5rem;
+  padding-top: 0.5rem;
+  color: $gold;
 }
 
 .contactBox::before {
-    content: '';
-    display: block;
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background-image: $battlenetLogo;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25%;
-    z-index: 1;
-    opacity: .2;
-    
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: $battlenetLogo;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  z-index: 1;
+  opacity: 0.2;
 }
 
 .contactBox {
-    text-align: center;
-    border: 1px solid rgba(0, 112, 222, .2);
-    border-radius: 13px;
+  text-align: center;
+  border: 1px solid rgba(0, 112, 222, 0.2);
+  border-radius: 13px;
+  position: relative;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  &.left {
+    margin-right: 1rem;
+  }
+  &.right {
+    margin-left: 1rem;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .contactId {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: $gold;
+    z-index: 2;
     position: relative;
-    padding-top:2.5rem;
-    padding-bottom: 2.5rem;
+  }
 
-    &.left {
-            margin-right:1rem;
-    }
-    &.right {
-        margin-left:1rem;
-    }
-    
-    h5 {
-        text-transform: uppercase;
-        font-weight: 300;
-    }
+  .contactSubtitleGuild,
+  .contactSubtitleRaid {
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    opacity: 0.8;
+  }
 
-    .contactId {
-        padding-bottom: 1rem;
-        font-weight: bold;
-        font-size: 1.1rem;
-        color:$gold;
-        z-index: 2;
-        position: relative;
-    }
-
-    .contactSubtitleGuild, 
-    .contactSubtitleRaid {
-        position: relative;
-        z-index: 2;
-        text-transform: uppercase;
-        font-size: .8rem;
-        padding-top:1rem;
-        padding-bottom:1rem;
-        letter-spacing: .1rem;
-        font-weight: 600;
-        opacity: .8;
-    }
-
-    .contactSubtitleGuild {
-        font-weight: 300;
-        color: $mint;
-    }
-    .contactSubtitleRaid {
-        color: $chatInstanceLeader;
-        font-weight: 600;
-    }    
+  .contactSubtitleGuild {
+    font-weight: 300;
+    color: $mint;
+  }
+  .contactSubtitleRaid {
+    color: $chatInstanceLeader;
+    font-weight: 600;
+  }
 }
 
 .contactBox:hover {
-    background-color: rgba(0, 112, 222, .05);
+  background-color: rgba(0, 112, 222, 0.05);
 }
 
-@media only screen and (max-width: 769px){
-
-.contact {
+@media only screen and (max-width: 769px) {
+  .contact {
     grid-template-columns: 1fr;
-}
+  }
 
-.contactBox {
+  .contactBox {
     text-align: center;
-    border: 1px solid rgba(0, 112, 222, .2);;
+    border: 1px solid rgba(0, 112, 222, 0.2);
     border-radius: 13px;
     position: relative;
-    padding-top:1rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 
     &.left {
-            margin-right:0;
-            margin-bottom:1rem;
+      margin-right: 0;
+      margin-bottom: 1rem;
     }
     &.right {
-        margin-left:0;
+      margin-left: 0;
     }
+  }
 }
-
-}
-

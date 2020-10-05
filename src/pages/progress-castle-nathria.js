@@ -1,4 +1,5 @@
 import React from 'react'
+import {graphql } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from '../components/layout'
 import Head from '../components/head'

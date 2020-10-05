@@ -3,143 +3,146 @@
 $mainContentBackground: url(../images/progress/current.png);
 
 @font-face {
-    font-family: '#{$icomoon-font-family}';
-    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69');
-    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69#iefix') format('embedded-opentype'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kk0i69') format('truetype'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kk0i69') format('woff'),
-      url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kk0i69##{$icomoon-font-family}') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: '#{$icomoon-font-family}' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kk0i69")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kk0i69")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kk0i69##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
-  .icon-warcraftlogs {
-    &:before {
-      content: $icon-warcraftlogs; 
-    }
-  }
-  
-  .icon-hearthstone {
-    &:before {
-      content: $icon-hearthstone; 
-    }
-  }
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-  .icon-alliance {
-    &:before {
-      content: $icon-alliance; 
-    }
-  }
-  .icon-raiderio {
-    &:before {
-      content: $icon-raiderio; 
-    }
-  }
-  .icon-wow {
-    &:before {
-      content: $icon-wow; 
-    }
-  }
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.icon-warcraftlogs {
+  &:before {
+    content: $icon-warcraftlogs;
+  }
+}
 
+.icon-hearthstone {
+  &:before {
+    content: $icon-hearthstone;
+  }
+}
 
-html, body {
-    margin:0;
-    padding: 0;
-    height: 100%;
-    color: $offwhite;
-    // font-family: 'Lato', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-size:16px;
+.icon-alliance {
+  &:before {
+    content: $icon-alliance;
+  }
+}
+.icon-raiderio {
+  &:before {
+    content: $icon-raiderio;
+  }
+}
+.icon-wow {
+  &:before {
+    content: $icon-wow;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: $offwhite;
+  // font-family: 'Lato', sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
 }
 
 .itemEpic {
+  color: $itemSuperior;
+  &:hover {
     color: $itemSuperior;
-    &:hover {
-        color: $itemSuperior;
-    }
+  }
 }
 .itemLegendary {
+  color: $itemLegendary;
+  &:hover {
     color: $itemLegendary;
-    &:hover {
-        color: $itemLegendary;
-    }
+  }
 }
 
-.death-knight{
-    color:$dk;
-    font-weight: 500;
+.death-knight {
+  color: $dk;
+  font-weight: 500;
 }
 .demon-hunter {
-    color:$dh;
-    font-weight: 500;
+  color: $dh;
+  font-weight: 500;
 }
 .druid {
-    color:$druid;
-    font-weight: 500;
+  color: $druid;
+  font-weight: 500;
 }
 .hunter {
-    color:$hunter;
-    font-weight: 500;
+  color: $hunter;
+  font-weight: 500;
 }
 .mage {
-    color:$mage;
-    font-weight: 500;
+  color: $mage;
+  font-weight: 500;
 }
 .monk {
-    color:$monk;
-    font-weight: 500;
+  color: $monk;
+  font-weight: 500;
 }
 .paladin {
-    color:$paladin;
-    font-weight: 500;
+  color: $paladin;
+  font-weight: 500;
 }
 .priest {
-    color:$priest;
-    font-weight: 500;
+  color: $priest;
+  font-weight: 500;
 }
 .rogue {
-    color:$rogue;
-    font-weight: 500;
+  color: $rogue;
+  font-weight: 500;
 }
 .shaman {
-    color:$shaman;
-    font-weight: 500;
+  color: $shaman;
+  font-weight: 500;
 }
 .warlock {
-    color:$warlock;
-    font-weight: 500;
+  color: $warlock;
+  font-weight: 500;
 }
 .warrior {
-    color:$warrior;
-    font-weight: 500;
+  color: $warrior;
+  font-weight: 500;
 }
 
 .mainWrapper {
-    background: $mainContentBackground;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    align-content: end;
-    z-index: 0;
-    
+  background: $mainContentBackground;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-content: end;
+  z-index: 0;
 }
 
 // .grid-wrapper {
@@ -147,7 +150,7 @@ html, body {
 //     font-family: 'Lato', sans-serif;
 //     display: grid;
 //     grid-template-rows: 250px min-content min-content 1fr min-content;
-//     grid-template-areas: 
+//     grid-template-areas:
 //     "bigtop"
 //     "navbar"
 //     "sidebar"
@@ -156,21 +159,21 @@ html, body {
 //     min-height: 100vh;
 // }
 .grid-wrapper {
-    background-color: $bg-body;
-    // font-family: 'Lato', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    display: grid;
-    grid-template-columns: 260px auto;
-    grid-template-rows: min-content auto min-content;
-    //grid-template-rows: 250px min-content min-content 1fr min-content;
-    grid-template-areas: 
+  background-color: $bg-body;
+  // font-family: 'Lato', sans-serif;
+  font-family: "Nunito", sans-serif;
+  display: grid;
+  grid-template-columns: 260px auto;
+  grid-template-rows: min-content auto min-content;
+  //grid-template-rows: 250px min-content min-content 1fr min-content;
+  grid-template-areas:
     "navbar navbar"
     "sidebar content"
     "footer footer";
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
-// .bigTop { 
+// .bigTop {
 //     grid-area: bigtop;
 //     background-color: $bg-dark;
 //     border-bottom: solid .1px black;
@@ -181,205 +184,200 @@ html, body {
 // }
 
 .headerLogo {
-    background-image: url('../images/logo_header.png');
-    //background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height:50%;
-    width: 100%;
-    position: relative;
-    top:25%;
-    left: 2%;
+  background-image: url("../images/logo_header.png");
+  //background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  top: 25%;
+  left: 2%;
 }
-  
+
 .navbar {
-    grid-area: navbar;
-    background:$bg-dark;
-    display: none;
-    //background: radial-gradient(circle, #292d35 0%, rgba(24, 26, 31, 1) 40%);
+  grid-area: navbar;
+  background: $bg-dark;
+  display: none;
+  //background: radial-gradient(circle, #292d35 0%, rgba(24, 26, 31, 1) 40%);
 }
 
 .nav-wrapper-grid {
-    width: 100%;
-	height: 50px;
-    //background: $bg-dark;
-    background: radial-gradient(circle, #292d35 0%, rgba(24, 26, 31, 1) 40%);
-	color: $offwhite;
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-items: center;
-	align-items: center;
-    margin: 0 auto;
-    border-bottom: 2px $gold solid;
+  width: 100%;
+  height: 50px;
+  //background: $bg-dark;
+  background: radial-gradient(circle, #292d35 0%, rgba(24, 26, 31, 1) 40%);
+  color: $offwhite;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px $gold solid;
 }
 
-.nav-links{
-	display: flex;
-	list-style-type: none;
-	margin-right: 25px;
-	cursor: pointer;
-	// @media screen and (max-width: 600px){
-	// 	display: none;
-	// }
-	li a{
-		position: relative;
-		margin-left: 15px;
-		text-transform: uppercase;
-		font-size: 0.9rem;
-		text-decoration: none;
-		color: $offwhite;
-		&::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 2px;
-        top: 110%;
-        left: 0;
-        background: $gold;
-        transition: transform 0.5s;
-        transform: scaleX(0);
-        transform-origin: right;
-			}
-		&:hover::after{
-			transform: scale(1);
-			transform-origin: left;
-		}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin-right: 25px;
+  cursor: pointer;
+  // @media screen and (max-width: 600px){
+  // 	display: none;
+  // }
+  li a {
+    position: relative;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: $offwhite;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 2px;
+      top: 110%;
+      left: 0;
+      background: $gold;
+      transition: transform 0.5s;
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    &:hover::after {
+      transform: scale(1);
+      transform-origin: left;
+    }
   }
 }
-  
-.sidebar { 
-    grid-area: sidebar; 
-    background: rgba($alliance_rgb, 0.1);
-    padding: 0px;
-    margin:0;
-    border-right: $gold 2px solid;
-    display:grid;
-    grid-template-rows: min-content min-content min-content auto min-content;
+
+.sidebar {
+  grid-area: sidebar;
+  background: rgba($alliance_rgb, 0.1);
+  padding: 0px;
+  margin: 0;
+  border-right: $gold 2px solid;
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content min-content;
 }
-  
-.content { 
-    grid-area: content;
-    display: grid;
-    //background-color: yellow;
-    grid-template-rows: auto;  
-    background: linear-gradient(to right bottom, $bg-body, #2f3844);  
+
+.content {
+  grid-area: content;
+  display: grid;
+  //background-color: yellow;
+  grid-template-rows: auto;
+  background: linear-gradient(to right bottom, $bg-body, #2f3844);
 }
 
 .box {
-    background-color: $bg-body-darker;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
+  background-color: $bg-body-darker;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 
-.footer { 
-    grid-area: footer;
-    background-color: $bg-dark;
-    padding-top: 20px;
-    padding-bottom: .6rem;
-    padding-right: .6rem;
-    text-align: right;
-    color: $itemPoor;
-    border-top: solid 1px $gold;
-    font-size: .7rem;
-    text-transform: uppercase;
-    display:block;
-    clear: both;
+.footer {
+  grid-area: footer;
+  background-color: $bg-dark;
+  padding-top: 20px;
+  padding-bottom: 0.6rem;
+  padding-right: 0.6rem;
+  text-align: right;
+  color: $itemPoor;
+  border-top: solid 1px $gold;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  display: block;
+  clear: both;
 
-    a {
-        text-transform: uppercase;
-        color: $itemPoor;
-        margin-right: .6rem;
-        padding:0;
-        
-        text-decoration: none;
-    
-        
-    }
-    
-    a:hover {
-        color: $gold;
-    }
-    
-    svg {
-        margin-right: .5rem;
-    }
-    
-    .copyr {
-        float: right;
-    }
-    
-    .linkContainer {        
-        font-size: 1rem;
-        float: left;
-        margin-left: 30px;
-    }
- }
+  a {
+    text-transform: uppercase;
+    color: $itemPoor;
+    margin-right: 0.6rem;
+    padding: 0;
+
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $gold;
+  }
+
+  svg {
+    margin-right: 0.5rem;
+  }
+
+  .copyr {
+    float: right;
+  }
+
+  .linkContainer {
+    font-size: 1rem;
+    float: left;
+    margin-left: 30px;
+  }
+}
 
 .setupTable {
-    padding-top: 2rem;
-    display: grid;
-    margin:0 auto;
-    grid-template-rows: repeat(5,.15fr);
-    grid-auto-flow: column;
-    // border-top: 1px solid red;
-    // border-right: 1px solid purple;
-    text-align: center;
-    width:80%
+  padding-top: 2rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: repeat(5, 0.15fr);
+  grid-auto-flow: column;
+  // border-top: 1px solid red;
+  // border-right: 1px solid purple;
+  text-align: center;
+  width: 80%;
 }
 
 .setupTable > span {
-    // padding: 8px 4px;
-    // border-left: 1px solid green;
-    // border-bottom: 1px solid blue;
-    // border:1px solid red;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  // padding: 8px 4px;
+  // border-left: 1px solid green;
+  // border-bottom: 1px solid blue;
+  // border:1px solid red;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+@media only screen and (max-width: 769px) {
+  .grid-wrapper {
+    background-color: $bg-body;
+    font-family: "Nunito", sans-serif;
+    // font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: min-content auto min-content min-content;
+    //grid-template-rows: 250px min-content min-content 1fr min-content;
+    grid-template-areas:
+      "navbar"
+      "content"
+      "sidebar"
+      "footer";
+    min-height: 100vh;
+  }
 
- @media only screen and (max-width: 769px){
-    .grid-wrapper {
-        background-color: $bg-body;
-        font-family: 'Nunito', sans-serif;
-        // font-family: 'Lato', sans-serif;
-        display: grid;
-        grid-template-columns: none;
-        grid-template-rows: min-content auto min-content min-content;
-        //grid-template-rows: 250px min-content min-content 1fr min-content;
-        grid-template-areas: 
-        "navbar"
-        "content"
-        "sidebar"
-        "footer";
-        min-height: 100vh;
+  .navbar {
+    display: contents;
+  }
+  .nav-wrapper-grid {
+    grid-template-columns: none;
+  }
+  .nav-links {
+    li a {
+      font-size: 0.7rem;
     }
+  }
 
-    .navbar {
-        display: contents;
-    }
-    .nav-wrapper-grid {
-        grid-template-columns: none;
-    }
-    .nav-links {
-        li a{
-            font-size: .7rem;
-        }
-    }
+  .sidebar {
+    grid-template-rows: min-content min-content min-content min-content min-content;
+  }
 
-    .sidebar{
-        grid-template-rows: min-content min-content min-content min-content min-content;
-    }
-
-    .setupTable {
-        padding-top: 2rem;
-        display: grid;
-        margin:0 auto;
-        grid-template-columns: repeat(2,1fr);
-        // border-top: 1px solid red;
-        // border-right: 1px solid purple;
-        text-align: center;
-    }
- }
-
-
+  .setupTable {
+    padding-top: 2rem;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    // border-top: 1px solid red;
+    // border-right: 1px solid purple;
+    text-align: center;
+  }
+}

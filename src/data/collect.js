@@ -35,7 +35,11 @@ progress = {
   }
 }
 
-var progressCollection = {}
+var progressCollection = {
+  "dummy": {
+    "blogpost":[]
+  }
+}
 
 function collectData(raid, boss, difficulty) {    
   

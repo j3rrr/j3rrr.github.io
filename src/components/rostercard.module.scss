@@ -1,0 +1,458 @@
+@import "../styles/variables";
+
+.rosterCard {
+  text-align: center;
+  border: 1px solid rgba($gold-rgb, 0.3);
+
+  border-radius: 13px;
+  background: #1d232f;
+  padding-bottom: 1rem;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), 0 0 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), 0 0 6px rgba(0, 0, 0, 0.2);
+
+  a {
+    text-transform: uppercase;
+    color: $itemPoor;
+    padding: 0;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+
+  a:first-child {
+    margin-right: 10px;
+  }
+  a:last-child {
+    margin-left: 10px;
+  }
+
+  a:hover {
+    color: $gold;
+  }
+
+  .copyr {
+    float: right;
+  }
+
+  .linkContainer {
+    font-size: 1.1rem;
+    padding-top: 10px;
+  }
+}
+
+// .rosterCard:hover {
+//   transform: scale(1.02);
+//   -webkit-transform: scale(1.02);
+//   -moz-transform: scale(1.02);
+//   -ms-transform: scale(1.02);
+//   -o-transform: scale(1.02);
+//   z-index: 1;
+// }
+
+// .rosterCard:hover {
+//   background-color: rgba(0, 112, 222, 0.05);
+// }
+
+.rank {
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: $gold;
+}
+
+.name {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.deathknight {
+  color: $dk;
+  font-weight: 600;
+}
+.demonhunter {
+  color: $dh;
+  font-weight: 600;
+}
+.druid {
+  color: $druid;
+  font-weight: 600;
+}
+.hunter {
+  color: $hunter;
+  font-weight: 600;
+}
+.mage {
+  color: $mage;
+  font-weight: 600;
+}
+.monk {
+  color: $monk;
+  font-weight: 600;
+}
+.paladin {
+  color: $paladin;
+  font-weight: 600;
+}
+.priest {
+  color: $priest;
+  font-weight: 600;
+}
+.rogue {
+  color: $rogue;
+  font-weight: 600;
+}
+.shaman {
+  color: $shaman;
+  font-weight: 600;
+}
+.warlock {
+  color: $warlock;
+  font-weight: 600;
+}
+.warrior {
+  color: $warrior;
+  font-weight: 600;
+}
+
+.avatarWrap {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom: 1px solid $gold;
+}
+
+.avatarWrap > .draenei {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(3);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 3%;
+}
+
+.avatarWrap > .human {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(3);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 15%;
+}
+
+.avatarWrap > .gnome {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(2);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 50%;
+}
+
+.avatarWrap > .dwarf {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.7);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 30%;
+}
+
+.avatarWrap > .voidelf {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(3);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 25%;
+}
+
+.avatarWrap > .nightelf {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(2.2);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 10%;
+}
+
+.avatarWrap > .lightdraenei {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(2);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 10%;
+}
+
+.avatarWrap > .kultiran {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.7);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 5%;
+}
+
+.avatarWrap > .mechagnome {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.7);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 50%;
+}
+
+.avatarWrap > .panda {
+  position: absolute;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.7);
+  height: 100%;
+  width: 100%;
+  background-position: 0% 30%;
+}
+
+.circledeathknight {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/deathknight2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circledemonhunter {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/demonhunter2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circledruid {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/druid2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlemage {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/mage2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlehunter {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/hunter2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlemonk {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/monk2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlepaladin {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/paladin2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlepriest {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/priest2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlerogue {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/rogue2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circleshaman {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/shaman2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlewarlock {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/warlock2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}
+
+.circlewarrior {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  background-image: url(../images/class/warrior2.png);
+  border: 1px solid $gold;
+  border-radius: 50%;
+  background-color: $bg-dark;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  margin-bottom: -10px;
+}

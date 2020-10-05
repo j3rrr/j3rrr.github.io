@@ -70,7 +70,9 @@ const Home = () => {
 		"Angeltime! *_*",
 		"sach ma wuat...",
 		"Der Kaffee ist fertig!",
-		"Ja na klaaar, HÄÄÄ Fugbaum!"
+		"Ja na klaaar, HÄÄÄ Fugbaum!",
+		"Yee",
+		"Ist die Mechanic neu?!"
 	]
 
 	const randomTitle = title[Math.floor(Math.random()*title.length)];
@@ -87,7 +89,7 @@ const Home = () => {
 									
 								<button className={indexStyles.btnHover}>
 									<AniLink fade to={`/blog/${edge.node.fields.slug}`}>
-										{edge.node.frontmatter.title}
+										<span>{edge.node.frontmatter.title}</span>
 									</AniLink><br></br>
 									{/* <div className={indexStyles.desc} dangerouslySetInnerHTML={{__html: edge.node.excerpt}}></div> */}
 									<div className={indexStyles.desc}>{edge.node.frontmatter.progress}</div>

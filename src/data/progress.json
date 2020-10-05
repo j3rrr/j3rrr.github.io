@@ -1,2856 +1,9 @@
 {
+  "dummy": {
+    "blogpost": []
+  },
   "nyalotha-the-waking-city": {
-    "heroic": [
-      {
-        "kill": {
-          "defeatedAt": "2020-02-02T20:57:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Graywîng",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          }
-        ],
-        "boss": "ra-den-the-despoiled"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-22T19:15:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Magicnacho",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "the-prophet-skitra"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-02-09T19:37:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          }
-        ],
-        "boss": "carapace-of-nzoth"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-22T20:57:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Magicnacho",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "maut"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-02-05T20:30:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Graywîng",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lêândra",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "vexiona"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-26T20:11:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "drestagath"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-02-02T20:25:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Graywîng",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          }
-        ],
-        "boss": "the-hivemind"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-26T20:31:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "shadhar-the-insatiable"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-22T18:50:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Magicnacho",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "wrathion-the-black-emperor"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-02-02T19:40:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Graywîng",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          }
-        ],
-        "boss": "ilgynoth-corruption-reborn"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-01-26T19:14:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lînt",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Palrica",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Undertàker",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Astoobi",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Râdix-22081011",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dineth",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xaeldras",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Selenator",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Inésá-27363477",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "dark-inquisitor-xanesh"
-      }
-    ],
     "mythic": [
-      {
-        "kill": {
-          "defeatedAt": "2020-03-04T21:08:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Xalandir",
-              "class": {
-                "slug": "mage"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Philostrate-31010173",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lêândra",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          }
-        ],
-        "boss": "shadhar-the-insatiable"
-      },
-      {
-        "kill": {
-          "defeatedAt": "2020-02-23T18:53:00.000Z"
-        },
-        "roster": [
-          {
-            "character": {
-              "name": "Akáme",
-              "class": {
-                "slug": "monk"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Íkè",
-              "class": {
-                "slug": "warrior"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Olympea",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Nerroc",
-              "class": {
-                "slug": "paladin"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Rhiin",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Sìoux-7670338",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Zerant",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kerrídwen",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Gubin",
-              "class": {
-                "slug": "rogue"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Demonmützer",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Stessia",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Karen",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Knoblauchöl",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Kaffeecrema",
-              "class": {
-                "slug": "shaman"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Pummlfee-23765428",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Valtica",
-              "class": {
-                "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Mayendriel",
-              "class": {
-                "slug": "death-knight"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Felixs",
-              "class": {
-                "slug": "druid"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          }
-        ],
-        "boss": "maut"
-      },
       {
         "kill": {
           "defeatedAt": "2020-06-14T18:40:00.000Z"
@@ -3021,17 +174,9 @@
       },
       {
         "kill": {
-          "defeatedAt": "2020-05-17T19:21:00.000Z"
+          "defeatedAt": "2020-04-15T20:30:00.000Z"
         },
         "roster": [
-          {
-            "character": {
-              "name": "Kazyra",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
           {
             "character": {
               "name": "Akáme",
@@ -3058,14 +203,6 @@
           },
           {
             "character": {
-              "name": "Vittrex",
-              "class": {
-                "slug": "hunter"
-              }
-            }
-          },
-          {
-            "character": {
               "name": "Nerroc",
               "class": {
                 "slug": "paladin"
@@ -3082,6 +219,22 @@
           },
           {
             "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
               "name": "Kerrídwen",
               "class": {
                 "slug": "druid"
@@ -3090,17 +243,17 @@
           },
           {
             "character": {
-              "name": "Sòrak-13869603",
+              "name": "Demonmützer",
               "class": {
-                "slug": "warlock"
+                "slug": "demon-hunter"
               }
             }
           },
           {
             "character": {
-              "name": "Demonmützer",
+              "name": "Stessia",
               "class": {
-                "slug": "demon-hunter"
+                "slug": "hunter"
               }
             }
           },
@@ -3170,22 +323,190 @@
           },
           {
             "character": {
-              "name": "Xalandir",
+              "name": "Lyâla",
               "class": {
-                "slug": "mage"
+                "slug": "demon-hunter"
               }
             }
           },
           {
             "character": {
-              "name": "Yabajin",
+              "name": "Xalandir",
               "class": {
-                "slug": "druid"
+                "slug": "mage"
               }
             }
           }
         ],
-        "boss": "vexiona"
+        "boss": "dark-inquisitor-xanesh"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-02-16T20:56:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          }
+        ],
+        "boss": "wrathion-the-black-emperor"
       },
       {
         "kill": {
@@ -3525,6 +846,342 @@
       },
       {
         "kill": {
+          "defeatedAt": "2020-03-04T21:08:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xalandir",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Philostrate-31010173",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lêândra",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "shadhar-the-insatiable"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-02-23T18:53:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          }
+        ],
+        "boss": "maut"
+      },
+      {
+        "kill": {
           "defeatedAt": "2020-03-29T19:50:00.000Z"
         },
         "roster": [
@@ -3693,9 +1350,17 @@
       },
       {
         "kill": {
-          "defeatedAt": "2020-04-15T20:30:00.000Z"
+          "defeatedAt": "2020-06-21T20:35:00.000Z"
         },
         "roster": [
+          {
+            "character": {
+              "name": "Kazyra",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
           {
             "character": {
               "name": "Akáme",
@@ -3722,6 +1387,22 @@
           },
           {
             "character": {
+              "name": "Jessicaw-2393920",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Vittrex",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
               "name": "Nerroc",
               "class": {
                 "slug": "paladin"
@@ -3738,9 +1419,17 @@
           },
           {
             "character": {
-              "name": "Sìoux-7670338",
+              "name": "Zarulesca",
               "class": {
-                "slug": "shaman"
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Springfixer",
+              "class": {
+                "slug": "death-knight"
               }
             }
           },
@@ -3770,9 +1459,145 @@
           },
           {
             "character": {
-              "name": "Stessia",
+              "name": "Karen",
               "class": {
                 "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Tanaro",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          }
+        ],
+        "boss": "ilgynoth-corruption-reborn"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-05-17T19:21:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Kazyra",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Vittrex",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sòrak-13869603",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
               }
             }
           },
@@ -3842,22 +1667,22 @@
           },
           {
             "character": {
-              "name": "Lyâla",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
               "name": "Xalandir",
               "class": {
                 "slug": "mage"
               }
             }
+          },
+          {
+            "character": {
+              "name": "Yabajin",
+              "class": {
+                "slug": "druid"
+              }
+            }
           }
         ],
-        "boss": "dark-inquisitor-xanesh"
+        "boss": "vexiona"
       },
       {
         "kill": {
@@ -4034,10 +1859,236 @@
           }
         ],
         "boss": "carapace-of-nzoth"
+      }
+    ],
+    "heroic": [
+      {
+        "kill": {
+          "defeatedAt": "2020-02-05T20:30:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Graywîng",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lêândra",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "vexiona"
       },
       {
         "kill": {
-          "defeatedAt": "2020-02-16T20:56:00.000Z"
+          "defeatedAt": "2020-02-09T19:37:00.000Z"
         },
         "roster": [
           {
@@ -4074,14 +2125,6 @@
           },
           {
             "character": {
-              "name": "Dämonzicke",
-              "class": {
-                "slug": "demon-hunter"
-              }
-            }
-          },
-          {
-            "character": {
               "name": "Rhiin",
               "class": {
                 "slug": "warlock"
@@ -4093,6 +2136,14 @@
               "name": "Sìoux-7670338",
               "class": {
                 "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
               }
             }
           },
@@ -4186,6 +2237,14 @@
           },
           {
             "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
               "name": "Felixs",
               "class": {
                 "slug": "druid"
@@ -4201,21 +2260,13 @@
             }
           }
         ],
-        "boss": "wrathion-the-black-emperor"
+        "boss": "carapace-of-nzoth"
       },
       {
         "kill": {
-          "defeatedAt": "2020-06-21T20:35:00.000Z"
+          "defeatedAt": "2020-02-02T19:40:00.000Z"
         },
         "roster": [
-          {
-            "character": {
-              "name": "Kazyra",
-              "class": {
-                "slug": "warlock"
-              }
-            }
-          },
           {
             "character": {
               "name": "Akáme",
@@ -4242,17 +2293,9 @@
           },
           {
             "character": {
-              "name": "Jessicaw-2393920",
+              "name": "Lînt",
               "class": {
                 "slug": "priest"
-              }
-            }
-          },
-          {
-            "character": {
-              "name": "Vittrex",
-              "class": {
-                "slug": "hunter"
               }
             }
           },
@@ -4266,25 +2309,25 @@
           },
           {
             "character": {
-              "name": "Rhiin",
+              "name": "Dämonzicke",
               "class": {
-                "slug": "warlock"
+                "slug": "demon-hunter"
               }
             }
           },
           {
             "character": {
-              "name": "Zarulesca",
+              "name": "Sìoux-7670338",
               "class": {
-                "slug": "hunter"
+                "slug": "shaman"
               }
             }
           },
           {
             "character": {
-              "name": "Springfixer",
+              "name": "Palrica",
               "class": {
-                "slug": "death-knight"
+                "slug": "paladin"
               }
             }
           },
@@ -4306,9 +2349,33 @@
           },
           {
             "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
               "name": "Demonmützer",
               "class": {
                 "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Graywîng",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
               }
             }
           },
@@ -4322,7 +2389,7 @@
           },
           {
             "character": {
-              "name": "Kaffeecrema",
+              "name": "Undertàker",
               "class": {
                 "slug": "shaman"
               }
@@ -4330,9 +2397,25 @@
           },
           {
             "character": {
-              "name": "Tanaro",
+              "name": "Astoobi",
               "class": {
                 "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
               }
             }
           },
@@ -4362,14 +2445,1934 @@
           },
           {
             "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
               "name": "Felixs",
               "class": {
                 "slug": "druid"
               }
             }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
           }
         ],
         "boss": "ilgynoth-corruption-reborn"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-02-02T20:57:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Graywîng",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          }
+        ],
+        "boss": "ra-den-the-despoiled"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-26T20:11:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "drestagath"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-22T18:50:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Magicnacho",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "wrathion-the-black-emperor"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-26T20:31:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "shadhar-the-insatiable"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-02-02T20:25:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Graywîng",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          }
+        ],
+        "boss": "the-hivemind"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-22T20:57:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Magicnacho",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "maut"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-26T19:14:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "dark-inquisitor-xanesh"
+      },
+      {
+        "kill": {
+          "defeatedAt": "2020-01-22T19:15:00.000Z"
+        },
+        "roster": [
+          {
+            "character": {
+              "name": "Akáme",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Íkè",
+              "class": {
+                "slug": "warrior"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Olympea",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lînt",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Nerroc",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dämonzicke",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Rhiin",
+              "class": {
+                "slug": "warlock"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Sìoux-7670338",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Palrica",
+              "class": {
+                "slug": "paladin"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Zerant",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kerrídwen",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Gubin",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Demonmützer",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Stessia",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Karen",
+              "class": {
+                "slug": "hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Undertàker",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Astoobi",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Knoblauchöl",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Râdix-22081011",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Kaffeecrema",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Dineth",
+              "class": {
+                "slug": "monk"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Pummlfee-23765428",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Valtica",
+              "class": {
+                "slug": "priest"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Mayendriel",
+              "class": {
+                "slug": "death-knight"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Magicnacho",
+              "class": {
+                "slug": "mage"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Xaeldras",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Selenator",
+              "class": {
+                "slug": "rogue"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Felixs",
+              "class": {
+                "slug": "druid"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Lyâla",
+              "class": {
+                "slug": "demon-hunter"
+              }
+            }
+          },
+          {
+            "character": {
+              "name": "Inésá-27363477",
+              "class": {
+                "slug": "shaman"
+              }
+            }
+          }
+        ],
+        "boss": "the-prophet-skitra"
       }
     ]
   }

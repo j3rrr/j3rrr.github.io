@@ -1,9 +1,9 @@
 {   
-    "open": true,
+    "open": false,
     "dh": {
         "recruit":false,
         "havoc": {
-            "active": true,
+            "active": false,
              "icon": "../spec/demonhunter/havoc.png"
         },
         "vengeance": {
@@ -12,17 +12,17 @@
         }
     },
     "druid": {
-        "recruit":true,
+        "recruit":false,
         "guardian": {
             "active": false,
              "icon": "../spec/druid/guardian.png"
         },
         "feral": {
-            "active": true,
+            "active": false,
              "icon": "../spec/druid/feral.png"
         },
         "balance": {
-            "active": true,
+            "active": false,
              "icon": "../spec/druid/balance.png"
         },
         "resto": {
@@ -31,27 +31,27 @@
         }
     },
     "warlock": {
-        "recruit":true,
+        "recruit":false,
         "affli": {
-            "active": true,
+            "active": false,
              "icon": "../spec/warlock/affliction.png"
         },
         "destro": {
-            "active": true,
+            "active": false,
              "icon": "../spec/warlock/destruction.png"
         },
         "demo": {
-            "active": true,
+            "active": false,
              "icon": "../spec/warlock/demonology.png"
         }
     },"hunter": {
         "recruit":false,
         "bm": {
-            "active": true,
+            "active": false,
              "icon": "../spec/hunter/beastmastery.png"
         },
         "mm": {
-            "active": true,
+            "active": false,
              "icon": "../spec/hunter/marksman.png"
         },
         "surv": {
@@ -65,26 +65,26 @@
              "icon": "../spec/warrior/protection.png"
         },
         "fury": {
-            "active": true,
+            "active": false,
              "icon": "../spec/warrior/fury.png"
         },
         "arms": {
-            "active": true,
+            "active": false,
              "icon": "../spec/warrior/arms.png"
         }
     },
     "mage": {
         "recruit":false,
         "frost": {
-            "active": true,
+            "active": false,
              "icon": "../spec/mage/frost.png"
         },
         "fire": {
-            "active": true,
+            "active": false,
              "icon": "../spec/mage/fire.png"
         },
         "arcane": {
-            "active": true,
+            "active": false,
              "icon": "../spec/mage/arcane.png"
         }
     },
@@ -95,11 +95,11 @@
              "icon": "../spec/monk/brewmaster.png"
         },
         "ww": {
-            "active": true,
+            "active": false,
              "icon": "../spec/monk/windwalker.png"
         },
         "mw": {
-            "active": true,
+            "active": false,
              "icon": "../spec/monk/mistweaver.png"
         }
     },
@@ -110,7 +110,7 @@
              "icon": "../spec/paladin/protection.png"
         },
         "ret": {
-            "active": true,
+            "active": false,
              "icon": "../spec/paladin/retribution.png"
         },
         "holy": {
@@ -119,7 +119,7 @@
         }
     },
     "priest": {
-        "recruit":true,
+        "recruit":false,
         "holy": {
             "active": false,
              "icon": "../spec/priest/holy.png"
@@ -129,18 +129,18 @@
              "icon": "../spec/priest/discipline.png"
         },
         "shadow": {
-            "active": true,
+            "active": false,
              "icon": "../spec/priest/shadow.png"
         }
     },
     "shaman": {
         "recruit":false,
         "ele": {
-            "active": true,
+            "active": false,
              "icon": "../spec/shaman/elemental.png"
         },
         "enh": {
-            "active": true,
+            "active": false,
              "icon": "../spec/shaman/enhancement.png"
         },
         "resto": {
@@ -151,15 +151,15 @@
     "rogue": {
         "recruit":false,
         "outlaw": {
-            "active": true,
+            "active": false,
              "icon": "../spec/rogue/combat.png"
         },
         "assa": {
-            "active": true,
+            "active": false,
              "icon": "../spec/rogue/assassination.png"
         },
         "sub": {
-            "active": true,
+            "active": false,
              "icon": "../spec/rogue/subtlety.png"
         }
     },
@@ -170,11 +170,11 @@
              "icon": "../spec/deathknight/blood.png"
         },
         "frost": {
-            "active": true,
+            "active": false,
              "icon": "../spec/deathknight/frost.png"
         },
         "unholy": {
-            "active": true,
+            "active": false,
              "icon": "../spec/deathknight/unholy.png"
         }
     }
