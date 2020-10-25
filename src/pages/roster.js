@@ -5,6 +5,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import RosterCard from "../components/rostercard"
+//import TwitchCard from "../components/twitchcard"
 
 import rosterStyles from "./roster.module.scss"
 
@@ -16,6 +17,7 @@ const RosterPage = () => {
       charRace: "draenei",
       charUrl: "104/131183464",
       rank: "Gildenleiterin",
+      role: "heal",
     },
     {
       name: "Nerroc",
@@ -23,6 +25,7 @@ const RosterPage = () => {
       charRace: "human",
       charUrl: "14/116264718",
       rank: "Offizier",
+      role: "tank",
     },
     {
       name: "Karen",
@@ -30,28 +33,15 @@ const RosterPage = () => {
       charRace: "gnome",
       charUrl: "212/168556244",
       rank: "Offizier",
+      role: "dps",
     },
     {
       name: "Kaffeecrema",
       charClass: "shaman",
       charRace: "draenei",
       charUrl: "163/171984291",
-      rank: "Raider",
       rank: "Offizier",
-    },
-    {
-      name: "Rhiin",
-      charClass: "warlock",
-      charRace: "human",
-      charUrl: "26/110831642",
-      rank: "Raider",
-    },
-    {
-      name: "Kerrídwen",
-      charClass: "druid",
-      charRace: "nightelf",
-      charUrl: "46/111754542",
-      rank: "Raider",
+      role: "heal",
     },
     {
       name: "Pummlbot",
@@ -59,20 +49,16 @@ const RosterPage = () => {
       charRace: "mechagnome",
       charUrl: "226/181897698",
       rank: "Raider",
+      role: "tank",
     },
+
     {
-      name: "Meerjungfrau",
-      charClass: "paladin",
-      charRace: "lightdraenei",
-      charUrl: "141/188162445",
-      rank: "Raider",
-    },
-    {
-      name: "Mützendude",
+      name: "Kerrídwen",
       charClass: "druid",
-      charRace: "kultiran",
-      charUrl: "226/110705122",
+      charRace: "nightelf",
+      charUrl: "46/111754542",
       rank: "Raider",
+      role: "heal",
     },
     {
       name: "Valtica",
@@ -80,20 +66,7 @@ const RosterPage = () => {
       charRace: "dwarf",
       charUrl: "46/178827822",
       rank: "Raider",
-    },
-    {
-      name: "Zarulesca",
-      charClass: "hunter",
-      charRace: "nightelf",
-      charUrl: "23/111846167",
-      rank: "Raider",
-    },
-    {
-      name: "Xalandir",
-      charClass: "mage",
-      charRace: "human",
-      charUrl: "55/180945719",
-      rank: "Raider",
+      role: "heal",
     },
     {
       name: "Yabajin",
@@ -101,6 +74,48 @@ const RosterPage = () => {
       charRace: "nightelf",
       charUrl: "196/111845060",
       rank: "Raider",
+      role: "heal",
+      channel: "dr_yabajin",
+    },
+    {
+      name: "Rhiin",
+      charClass: "warlock",
+      charRace: "human",
+      charUrl: "26/110831642",
+      rank: "Raider",
+      role: "dps",
+    },
+    {
+      name: "Meerjungfrau",
+      charClass: "paladin",
+      charRace: "lightdraenei",
+      charUrl: "141/188162445",
+      rank: "Raider",
+      role: "dps",
+    },
+    {
+      name: "Mützendude",
+      charClass: "druid",
+      charRace: "kultiran",
+      charUrl: "226/110705122",
+      rank: "Raider",
+      role: "dps",
+    },
+    {
+      name: "Zarulesca",
+      charClass: "hunter",
+      charRace: "nightelf",
+      charUrl: "23/111846167",
+      rank: "Raider",
+      role: "dps",
+    },
+    {
+      name: "Xalandir",
+      charClass: "mage",
+      charRace: "human",
+      charUrl: "55/180945719",
+      rank: "Raider",
+      role: "dps",
     },
     {
       name: "Íkè",
@@ -108,6 +123,7 @@ const RosterPage = () => {
       charRace: "human",
       charUrl: "77/148200781",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Âkámé",
@@ -115,6 +131,7 @@ const RosterPage = () => {
       charRace: "panda",
       charUrl: "6/109955334",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Gubin",
@@ -122,6 +139,8 @@ const RosterPage = () => {
       charRace: "voidelf",
       charUrl: "228/134896356",
       rank: "Raider",
+      role: "dps",
+      channel: "gubinplays",
     },
     {
       name: "Mayendriel",
@@ -129,6 +148,7 @@ const RosterPage = () => {
       charRace: "voidelf",
       charUrl: "9/179094025",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Springfixer",
@@ -136,6 +156,7 @@ const RosterPage = () => {
       charRace: "human",
       charUrl: "4/110912516",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Láucian",
@@ -143,6 +164,7 @@ const RosterPage = () => {
       charRace: "nightelf",
       charUrl: "71/187970887",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Fyda",
@@ -150,6 +172,7 @@ const RosterPage = () => {
       charRace: "human",
       charUrl: "155/186204827",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Lefter",
@@ -157,6 +180,7 @@ const RosterPage = () => {
       charRace: "nightelf",
       charUrl: "21/186108693",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Glenfarclas",
@@ -164,6 +188,7 @@ const RosterPage = () => {
       charRace: "dwarf",
       charUrl: "121/151918713",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Kaysah",
@@ -171,6 +196,7 @@ const RosterPage = () => {
       charRace: "nightelf",
       charUrl: "91/188984411",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Shoc",
@@ -178,6 +204,7 @@ const RosterPage = () => {
       charRace: "dwarf",
       charUrl: "218/185629658",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Warperkz",
@@ -185,6 +212,7 @@ const RosterPage = () => {
       charRace: "human",
       charUrl: "140/192146316",
       rank: "Raider",
+      role: "dps",
     },
     {
       name: "Vollderottø",
@@ -192,15 +220,15 @@ const RosterPage = () => {
       charRace: "gnome",
       charUrl: "89/156086105",
       rank: "Raider",
+      role: "dps",
     },
   ]
   return (
     <Layout>
       <Head title="Raidkader" />
       <div className={rosterStyles.rosterSiteWrapper}>
-        <div>
-          <h2>Mythic Raid Kader</h2>
-        </div>
+        <h2>Mythic Raid Kader</h2>
+
         <div className={rosterStyles.rosterWrapper}>
           {rosterArray.map(char => (
             <RosterCard
@@ -209,12 +237,11 @@ const RosterPage = () => {
               charRace={char.charRace}
               charUrl={char.charUrl}
               rank={char.rank}
+              role={char.role}
+              channel={char.channel}
             />
           ))}
         </div>
-        {/* <div>
-          <h2>Streams</h2>
-        </div> */}
       </div>
     </Layout>
   )

@@ -60,6 +60,28 @@
 //   background-color: rgba(0, 112, 222, 0.05);
 // }
 
+.role {
+  color: $gold;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  img {
+    filter: invert(74%) sepia(50%) saturate(243%) hue-rotate(2deg)
+      brightness(94%) contrast(87%);
+    height: 20px;
+    width: 20px;
+  }
+}
+.healicon {
+  height: 20px;
+  width: 20px;
+  &:before {
+    background-image: url(../images/healicon.svg);
+    height: 20px;
+    width: 20px;
+  }
+}
+
 .rank {
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -266,8 +288,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circledemonhunter {
@@ -283,8 +306,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circledruid {
@@ -300,8 +324,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlemage {
@@ -317,8 +342,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlehunter {
@@ -334,8 +360,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlemonk {
@@ -351,8 +378,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlepaladin {
@@ -368,8 +396,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlepriest {
@@ -385,8 +414,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlerogue {
@@ -402,8 +432,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circleshaman {
@@ -419,8 +450,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlewarlock {
@@ -436,8 +468,9 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }
 
 .circlewarrior {
@@ -453,6 +486,7 @@
   background-color: $bg-dark;
   margin: 0 auto;
   position: relative;
-  top: -7%;
+  top: 0;
   margin-bottom: -10px;
+  transform: translateY(-50%);
 }

@@ -4,14 +4,14 @@ $mainContentBackground: url(../images/progress/current.png);
 
 @font-face {
   font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kk0i69#iefix")
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vqusof");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vqusof#iefix")
       format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kk0i69")
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?vqusof")
       format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kk0i69")
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?vqusof")
       format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kk0i69##{$icomoon-font-family}")
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?vqusof##{$icomoon-font-family}")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -34,18 +34,36 @@ $mainContentBackground: url(../images/progress/current.png);
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-castericon {
+  &:before {
+    content: $icon-castericon;
+  }
+}
+.icon-dpsicon {
+  &:before {
+    content: $icon-dpsicon;
+  }
+}
+.icon-healicon {
+  &:before {
+    content: $icon-healicon;
+  }
+}
+.icon-tankicon {
+  &:before {
+    content: $icon-tankicon;
+  }
+}
 .icon-warcraftlogs {
   &:before {
     content: $icon-warcraftlogs;
   }
 }
-
 .icon-hearthstone {
   &:before {
     content: $icon-hearthstone;
   }
 }
-
 .icon-alliance {
   &:before {
     content: $icon-alliance;
